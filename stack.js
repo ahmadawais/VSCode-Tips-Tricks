@@ -48,6 +48,7 @@ class Stack {
 	}
 }
 
+// Init.
 const theStack = new Stack();
 
 theStack.isEmpty(); // true.
