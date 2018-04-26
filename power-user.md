@@ -1,13 +1,13 @@
 # VSCode.pro
 
-_I'm using Mac so feel free to convert the following:_
+> I'm using Mac so feel free to convert the following:
 > MacOS         →   Windows/Linux.
 > Command      ===  Control
 > Option/Alt   ===  Alt
 
 ## Power User Workflows:
 
-👉 `LINES OF CODE`
+👉 `LINES`
 - Line iterations            →     `Command ⌘ | Alt ⌥ | Shift ⇧ | Right/Left →/←`
 - Delete a line              →     `Ctrl ⌃ + Shift ⇧ + K`
 - Duplicate a line           →     `Ctrl ⌃ + Shift ⇧ + Up/Down ↑/↓`
@@ -18,7 +18,7 @@ _I'm using Mac so feel free to convert the following:_
 - Next occurrence            →     `Command ⌘ + D`
 - All occurrence             →     `Command ⌘ + Alt ⌥ + G`
 
-👉 `CURSOR`
+👉 `CURSORS`
 - Multi-Cursor               →     `Command ⌘ + Click`
 - Multi-Cursor Drag          →     `Command ⌘ + Shift ⇧ + Drag`
 - Multi-Cursor Keyboard      →     `Command ⌘ + Alt ⌥ + Up/Down ↑/↓`
@@ -43,18 +43,18 @@ _I'm using Mac so feel free to convert the following:_
 
 
 
-## Current Workflow:
+## ⚡ Current Workflow:
 
 - Line iterations            →     `Command ⌘ | Alt ⌥ | Shift ⇧ | Right/Left →/←`
 
-_I'm using Mac so feel free to convert the following:_
+> I'm using Mac so feel free to convert the following:
 > MacOS         →   Windows/Linux.
 > Command      ===  Control
 > Option/Alt   ===  Alt
 
 
 
-## Sandbox:
+## 🗑 Sandbox:
 
 Ahmad Awais is teaching power user workflows for VSCode.
 Ahmad Awais is teaching power user workflows for VSCode.
