@@ -1,9 +1,9 @@
 # VSCode.pro
 
 > I'm using Mac so feel free to convert the following:
-> MacOS         →   Windows/Linux.
-> Command      ===  Control
-> Option/Alt   ===  Alt
+> MacOS         →     Windows/Linux.
+> Command      ===    Control
+> Option/Alt   ===    Alt
 
 ## Power User Workflows:
 
@@ -40,18 +40,17 @@
 
 
 
+> I'm using Mac so feel free to convert the following:
+> MacOS         →     Windows/Linux.
+> Command      ===    Control
+> Option/Alt   ===    Alt
+
 
 
 
 ## ⚡ Current Workflow:
 
 - Line iterations            →     `Command ⌘ | Alt ⌥ | Shift ⇧ | Right/Left →/←`
-
-> I'm using Mac so feel free to convert the following:
-> MacOS         →   Windows/Linux.
-> Command      ===  Control
-> Option/Alt   ===  Alt
-
 
 
 ## 🗑 Sandbox:
