@@ -51,12 +51,12 @@ class Stack {
 // Init.
 const theStack = new Stack();
 
-theStack.isEmpty(); // true.
+theStack.isEmpty(); // STATE: true.
 theStack.push('1'); // [1].
 theStack.push('2'); // [1, 2].
 theStack.push('3'); // [1, 2, 3].
 theStack.pop(); // [1, 2].
 theStack.peek(); // 2.
 theStack.size(); // 2.
-theStack.isEmpty(); // flase.
+theStack.isEmpty(); // STATE: flase.
 let stackSize = theStack.size();
