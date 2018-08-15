@@ -1,1 +1,3 @@
-# Git Integration in VSCode
+# Git Integration for VSCode
+
+Changes.
