@@ -5,6 +5,9 @@
  */
 
 class Stack {
+	/**
+	 * Constructor need I say more?!
+	 */
 	constructor() {
 		// Data inside the stack in form of an array.
 		this.data = [];
@@ -13,7 +16,7 @@ class Stack {
 	/**
 	 * Adds item to Stack.
 	 *
-	 * @param {string} item
+	 * @param String item Item to push.
 	 */
 	push(item) {
 		this.data[this.data.length] = item; // Trick: this.data.length is always +1 of the index.
