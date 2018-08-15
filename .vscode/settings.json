@@ -1,0 +1,11 @@
+{
+    // ——— Not in the Course yet —————
+    // ——— Not in the Course yet —————
+    // ——— Not in the Course yet —————
+    // Formatting Setup.
+    "editor.formatOnSave": true,
+    "files.insertFinalNewline": true,
+    "editor.tabSize": 4,
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+}
