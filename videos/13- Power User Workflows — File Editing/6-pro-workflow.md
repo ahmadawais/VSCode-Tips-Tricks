@@ -6,7 +6,7 @@
 
 ## ⚡ Current Workflow:
 
-Next occurrence     →     `Command ⌘ + D`
+Next occurrence     →     `Command (⌘) + D`
 
 
 ## 🗑 Sandbox:

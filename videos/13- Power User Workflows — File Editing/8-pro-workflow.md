@@ -6,7 +6,7 @@
 
 ## ⚡ Current Workflow:
 
-Move Selection to Next     →     `Command ⌘ + K + Command ⌘ + D`
+Move Selection to Next     →     `Command (⌘) + K + Command (⌘) + D`
 
 
 ## 🗑 Sandbox:

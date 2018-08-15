@@ -9,7 +9,7 @@
 
 ## ⚡ Current Workflow:
 
-Multi-Cursor Selection (Keyboard)     →     `Command ⌘ + Shift ⇧ + L`
+Multi-Cursor Selection (Keyboard)     →     `Command (⌘) + Shift (⇧) + L`
 
 
 ## 🗑 Sandbox:

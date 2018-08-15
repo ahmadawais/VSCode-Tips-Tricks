@@ -9,7 +9,7 @@
 
 ## ⚡ Current Workflow:
 
-Cut/Copy/Paste a line     →     `Command ⌘ + X/C/V`
+Cut/Copy/Paste a line     →     `Command (⌘) + X/C/V`
 
 
 ## 🗑 Sandbox:

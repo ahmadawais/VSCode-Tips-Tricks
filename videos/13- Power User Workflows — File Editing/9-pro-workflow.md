@@ -6,7 +6,7 @@
 
 ## ⚡ Current Workflow:
 
-Multi-Cursor (Mouse/Keypad)     →     `Command ⌘ + Click`
+Multi-Cursor (Mouse/Keypad)     →     `Command (⌘) + Click`
 
 
 

@@ -8,7 +8,7 @@
 
 ## ⚡ Current Workflow:
 
-Undo the last cursor     →     `Command ⌘ + U`
+Undo the last cursor     →     `Command (⌘) + U`
 
 
 ## 🗑 Sandbox:

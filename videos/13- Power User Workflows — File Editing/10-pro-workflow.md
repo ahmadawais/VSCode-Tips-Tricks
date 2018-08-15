@@ -6,7 +6,7 @@
 
 ## ⚡ Current Workflow:
 
-Multi-Cursor Drag (Mouse/Keypad)     →     `Command ⌘ + Shift ⇧ + Drag`
+Multi-Cursor Drag (Mouse/Keypad)     →     `Command (⌘) + Shift (⇧) + Drag`
 
 
 

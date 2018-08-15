@@ -8,7 +8,7 @@
 
 ## ⚡ Current Workflow:
 
-Multi-Cursor (Keyboard)     →     `Command ⌘ + Alt ⌥ + Up/Down ↑/↓`
+Multi-Cursor (Keyboard)     →     `Command (⌘) + Alt (⌥) + Up/Down (↑/↓)`
 
 
 ## 🗑 Sandbox:

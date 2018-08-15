@@ -6,7 +6,7 @@
 
 ## ⚡ Current Workflow:
 
-All occurrences     →     `Command ⌘ + Ctrl ⌃ + G`
+All occurrences     →     `Command (⌘) + Ctrl (⌃) + G`
 
 
 ## 🗑 Sandbox:

@@ -8,7 +8,7 @@
 
 ## ⚡ Current Workflow:
 
-Move line up and down     →     `Command ⌘ + Ctrl ⌃ + Up/Down ↑/↓`
+Move line up and down     →     `Command (⌘) + Ctrl (⌃) + Up/Down (↑/↓)`
 
 
 

@@ -9,7 +9,7 @@
 
 ## ⚡ Current Workflow:
 
-Duplicate a line     →     `Alt ⌥ + Shift ⇧ + Up/Down ↑/↓`
+Duplicate a line     →     `Alt (⌥) + Shift (⇧) + Up/Down (↑/↓)`
 
 
 ## 🗑 Sandbox:

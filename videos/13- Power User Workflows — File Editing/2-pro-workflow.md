@@ -8,7 +8,7 @@
 
 ## ⚡ Current Workflow:
 
-Delete a line     →     `Ctrl ⌃ + Shift ⇧ + K`
+Delete a line     →     `Command (⌘) + Shift (⇧) + K`
 
 
 

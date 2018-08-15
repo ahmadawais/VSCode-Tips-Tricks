@@ -9,7 +9,7 @@
 
 ## ⚡ Current Workflow:
 
-Line iterations     →     `Command ⌘ | Alt ⌥ | Shift ⇧ | Right/Left →/←`
+Line iterations     →     `Command (⌘) | Alt (⌥) | Shift (⇧) | Left/Right (←/→)`
 
 
 ## 🗑 Sandbox:
