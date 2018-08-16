@@ -1,4 +1,4 @@
 {
-    // BREADCRUMBS —————————————————————————————————
-    "breadcrumbs.enabled": true,
+	// BREADCRUMBS —————————————————————————————————
+	"breadcrumbs.enabled": true
 }

@@ -64,18 +64,6 @@
 	"editor.codeActionsOnSave": {
 		"source.organizeImports": true
 	},
-	// Spellings.
-	"spellright.documentTypes": [
-		"plaintext",
-		"markdown",
-		"latex",
-		"html",
-		"jade",
-		"pug",
-		"css",
-		"php",
-		"javascript"
-	],
 	// ———————————————————————————————————— COURSE ——————————————————————————————————————————————————————
 	// ———————————————————————————————————— COURSE ——————————————————————————————————————————————————————
 	// ———————————————————————————————————— COURSE ——————————————————————————————————————————————————————
@@ -175,4 +163,16 @@
 	"files.defaultLanguage": "markdown",
 	// BREADCRUMBS —————————————————————————————————
 	"breadcrumbs.enabled": true,
+	// Spellings —————————————————————————————————
+	"spellright.documentTypes": [
+		"plaintext",
+		"markdown",
+		"latex",
+		"html",
+		"jade",
+		"pug",
+		"css",
+		"php",
+		"javascript"
+	],
 }
