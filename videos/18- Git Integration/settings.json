@@ -1,0 +1,13 @@
+{
+    // GIT ——————————————————
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    // GitLens.
+    "gitlens.gitExplorer.files.layout": "auto",
+    "gitlens.currentLine.enabled": false,
+    "gitlens.hovers.enabled": false,
+    "gitlens.keymap": "alternate",
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+}
