@@ -1,0 +1,8 @@
+/* Styles */
+div {
+	display: block;
+	display: table;
+	display: table-cell;
+	text-decoration: none;
+	margin: 0;
+}

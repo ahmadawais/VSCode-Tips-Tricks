@@ -1,11 +1,20 @@
 {
     // ——— Not in the Course yet —————
-    // ——— Not in the Course yet —————
-    // ——— Not in the Course yet —————
-    // Formatting Setup.
-    "editor.formatOnSave": true,
-    "files.insertFinalNewline": true,
-    "editor.tabSize": 4,
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
+    // Formatting Setup.
+    // "editor.formatOnSave": true,
+    // "files.insertFinalNewline": true,
+    // "editor.tabSize": 4,
+    // "emmet.triggerExpansionOnTab": true
+    // EXT: Highlight Matching Tag
+    // "highlight-matching-tag.style": {
+    //     "backgroundColor": "rgba(165, 153, 233, 0.3)"
+    // },
+    // "highlight-matching-tag.leftStyle": {
+    //     "borderWidth": "0"
+    // },
+    // "highlight-matching-tag.rightStyle": {
+    //     "borderWidth": "0"
+    // },
 }
