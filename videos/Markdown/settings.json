@@ -1,0 +1,8 @@
+{
+    // MARKDOWN —————————————————————————————————————
+    "[markdown]": {
+        "editor.formatOnSave": false,
+        "editor.quickSuggestions": true
+    },
+    "files.defaultLanguage": "markdown",
+}

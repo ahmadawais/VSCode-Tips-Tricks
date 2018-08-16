@@ -2,19 +2,6 @@
     // Breadcrumbs.
     "breadcrumbs.enabled": true,
     //// ——————————————————————————————————————————
-    //———————————————— MARKDOWN ————————————————————
-    //// ——————————————————————————————————————————
-    "[markdown]": {
-        "editor.formatOnSave": false,
-        "editor.quickSuggestions": true
-    },
-    "files.defaultLanguage": "markdown",
-    //// ——————————————————————————————————————————
-    //———————————————— PUG ——————————————————————
-    //// ——————————————————————————————————————————
-    "puglint.enable": true,
-    "puglint.run": "onSave",
-    //// ——————————————————————————————————————————
     // ————————————— JAVASCRIPT —————————————————
     //// ——————————————————————————————————————————
     "[javascript]": {
@@ -96,10 +83,10 @@
     // ———————————————————————————————————— COURSE ——————————————————————————————————————————————————————
     // ———————————————————————————————————— COURSE ——————————————————————————————————————————————————————
     // ———————————————————————————————————— COURSE ——————————————————————————————————————————————————————
-    // THEME SETUP ——————————————————
+    // THEME SETUP —————————————————————————————————
     "workbench.colorTheme": "Shades of Purple",
     "workbench.iconTheme": "vscode-icons",
-    // FONTS SETUP ——————————————————
+    // FONTS SETUP —————————————————————————————————
     "editor.fontFamily": "Operator Mono, Fira Code, Menlo, Monaco, 'Courier New', monospace",
     "terminal.integrated.fontFamily": "'Operator Mono', 'Inconsolata for Powerline', monospace",
     "editor.fontSize": 17,
@@ -109,10 +96,10 @@
     "editor.fontWeight": "400",
     "editor.letterSpacing": 0.5,
     "workbench.fontAliasing": "auto",
-    // CURSOR SETUP ——————————————————
+    // CURSOR SETUP ————————————————————————————————
     "editor.cursorBlinking": "solid",
     "editor.cursorWidth": 5,
-    // UI IMPROVEMENTS ——————————————————
+    // UI IMPROVEMENTS —————————————————————————————
     "editor.minimap.enabled": false,
     "workbench.editor.enablePreview": false,
     "explorer.openEditors.visible": 1,
@@ -138,23 +125,22 @@
         100,
         120
     ],
-    // WHITESPACE COMMANDO SETUP ——————————————————
+    // WHITESPACE COMMANDO SETUP ———————————————————
     "editor.renderWhitespace": "all",
     "files.trimTrailingWhitespace": true,
     "files.trimFinalNewlines": true,
     "diffEditor.ignoreTrimWhitespace": false,
     "files.insertFinalNewline": true,
-    // MACROS ——————————————————
+    // MACROS ——————————————————————————————————————
     "macros": {
         "collapseAndClose": [
             "workbench.files.action.collapseExplorerFolders",
             "workbench.action.closeAllEditors"
         ]
     },
-    // GIT ——————————————————
+    // GIT —————————————————————————————————————————
     "git.autofetch": true,
     "git.enableSmartCommit": true,
-    // GitLens.
     "gitlens.gitExplorer.files.layout": "auto",
     "gitlens.currentLine.enabled": false,
     "gitlens.hovers.enabled": false,
@@ -162,5 +148,31 @@
     "gitlens.advanced.messages": {
         "suppressShowKeyBindingsNotice": true
     },
-    "window.zoomLevel": 0,
+    // EMMET ———————————————————————————————————————
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    // EXT: HIGHLIGHT MATCHING TAG —————————————————
+    "highlight-matching-tag.style": {
+        "backgroundColor": "rgba(165, 153, 233, 0.3)"
+    },
+    "highlight-matching-tag.leftStyle": {
+        "borderWidth": "0"
+    },
+    "highlight-matching-tag.rightStyle": {
+        "borderWidth": "0"
+    },
+    // FORMATTING ———————————————————————————————————
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    // PUG ——————————————————————————————————————————
+    "puglint.enable": true,
+    "puglint.run": "onSave",
+    // MARKDOWN —————————————————————————————————————
+    "[markdown]": {
+        "editor.formatOnSave": false,
+        "editor.quickSuggestions": true
+    },
+    "files.defaultLanguage": "markdown",
 }

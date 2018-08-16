@@ -2,24 +2,5 @@
     // ——— Not in the Course yet —————
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
-    // MOAR
     "workbench.settings.editor": "json",
-    // EMMET ——————————————————
-    "emmet.triggerExpansionOnTab": true,
-    "emmet.includeLanguages": {
-        "javascript": "javascriptreact"
-    },
-    // EXT: HIGHLIGHT MATCHING TAG ——————————————————
-    "highlight-matching-tag.style": {
-        "backgroundColor": "rgba(165, 153, 233, 0.3)"
-    },
-    "highlight-matching-tag.leftStyle": {
-        "borderWidth": "0"
-    },
-    "highlight-matching-tag.rightStyle": {
-        "borderWidth": "0"
-    },
-    // FORMATTING ——————————————————
-    "editor.formatOnPaste": true,
-    "editor.formatOnSave": true,
 }
