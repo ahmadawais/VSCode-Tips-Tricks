@@ -1,0 +1,6 @@
+{
+    // FORMATTING ——————————————————
+	"editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "files.insertFinalNewline": true,
+}
