@@ -1,0 +1,12 @@
+{
+    // EXT: Highlight Matching Tag ——————————————————
+    "highlight-matching-tag.style": {
+        "backgroundColor": "rgba(165, 153, 233, 0.3)"
+    },
+    "highlight-matching-tag.leftStyle": {
+        "borderWidth": "0"
+    },
+    "highlight-matching-tag.rightStyle": {
+        "borderWidth": "0"
+    },
+}
