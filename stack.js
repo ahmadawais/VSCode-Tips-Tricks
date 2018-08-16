@@ -61,5 +61,5 @@ theStack.push('3'); // [1, 2, 3].
 theStack.pop(); // [1, 2].
 theStack.peek(); // 2.
 theStack.size(); // 2.
-theStack.isEmpty(); // STATE: flase.
+theStack.isEmpty(); // STATE: false.
 let stackSize = theStack.size();
