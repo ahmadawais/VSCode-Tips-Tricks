@@ -14,6 +14,10 @@
         100,
         120
     ],
+    // No auto detect.
+    "gulp.autoDetect": "off",
+    "grunt.autoDetect": "off",
+    "python.unitTest.autoTestDiscoverOnSaveEnabled": false,
     //// ——————————————————————————————————————————
     //———————————————— MARKDOWN ————————————————————
     //// ——————————————————————————————————————————
@@ -88,11 +92,6 @@
     //// ——————————————————————————————————————————
     // ———————————————— MORE ——————————————————
     //// ——————————————————————————————————————————
-    // No auto detect.
-    "gulp.autoDetect": "off",
-    "grunt.autoDetect": "off",
-    "sublimeImporter.hasPromptedOnStartup": true,
-    "python.unitTest.autoTestDiscoverOnSaveEnabled": false,
     // MOAR.
     "editor.codeActionsOnSave": {
         "source.organizeImports": true
