@@ -1,8 +1,11 @@
 /* Styles */
 div {
 	display: block;
-	display: table;
-	display: table-cell;
+	width: 100%;
 	text-decoration: none;
+	text-align: center;
 	margin: 0;
+	padding: 5rem !important;
+	color: #dedede;
+	color: #ffffff;
 }
