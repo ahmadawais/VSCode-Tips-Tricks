@@ -1,0 +1,4 @@
+{
+    "puglint.enable": true,
+    "puglint.run": "onSave",
+}
