@@ -1,24 +1,5 @@
 {
     //// ——————————————————————————————————————————
-    // UI
-    //// ——————————————————————————————————————————
-    "breadcrumbs.enabled": true,
-    "window.restoreFullscreen": true,
-    "debug.toolBarLocation": "docked",
-    "workbench.panel.defaultLocation": "right",
-    "terminal.integrated.drawBoldTextInBrightColors": false,
-    "workbench.editor.tabCloseButton": "off",
-    "editor.wordWrap": "on",
-    "editor.rulers": [
-        80,
-        100,
-        120
-    ],
-    // No auto detect.
-    "gulp.autoDetect": "off",
-    "grunt.autoDetect": "off",
-    "python.unitTest.autoTestDiscoverOnSaveEnabled": false,
-    //// ——————————————————————————————————————————
     //———————————————— MARKDOWN ————————————————————
     //// ——————————————————————————————————————————
     "[markdown]": {
@@ -142,6 +123,22 @@
     "editor.multiCursorModifier": "ctrlCmd",
     "terminal.integrated.macOptionIsMeta": true,
     "workbench.statusBar.feedback.visible": false,
+    "editor.wordWrap": "on",
+    "debug.toolBarLocation": "docked",
+    "window.restoreFullscreen": true,
+    "workbench.editor.tabCloseButton": "off",
+    "workbench.panel.defaultLocation": "right",
+    "terminal.integrated.drawBoldTextInBrightColors": false,
+    "breadcrumbs.enabled": true,
+    "editor.rulers": [
+        80,
+        100,
+        120
+    ],
+    // No auto detect.
+    "gulp.autoDetect": "off",
+    "grunt.autoDetect": "off",
+    "python.unitTest.autoTestDiscoverOnSaveEnabled": false,
     // WHITESPACE COMMANDO SETUP ——————————————————
     "editor.renderWhitespace": "all",
     "files.trimTrailingWhitespace": true,
