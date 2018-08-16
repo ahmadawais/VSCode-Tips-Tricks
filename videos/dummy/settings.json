@@ -1,4 +1,6 @@
 {
+    // Breadcrumbs.
+    "breadcrumbs.enabled": true,
     //// ——————————————————————————————————————————
     //———————————————— MARKDOWN ————————————————————
     //// ——————————————————————————————————————————
@@ -129,16 +131,13 @@
     "workbench.editor.tabCloseButton": "off",
     "workbench.panel.defaultLocation": "right",
     "terminal.integrated.drawBoldTextInBrightColors": false,
-    "breadcrumbs.enabled": true,
+    "gulp.autoDetect": "off",
+    "grunt.autoDetect": "off",
     "editor.rulers": [
         80,
         100,
         120
     ],
-    // No auto detect.
-    "gulp.autoDetect": "off",
-    "grunt.autoDetect": "off",
-    "python.unitTest.autoTestDiscoverOnSaveEnabled": false,
     // WHITESPACE COMMANDO SETUP ——————————————————
     "editor.renderWhitespace": "all",
     "files.trimTrailingWhitespace": true,
@@ -163,22 +162,5 @@
     "gitlens.advanced.messages": {
         "suppressShowKeyBindingsNotice": true
     },
-    // EMMET ——————————————————
-    "emmet.triggerExpansionOnTab": true,
-    "emmet.includeLanguages": {
-        "javascript": "javascriptreact"
-    },
-    // EXT: HIGHLIGHT MATCHING TAG ——————————————————
-    "highlight-matching-tag.style": {
-        "backgroundColor": "rgba(165, 153, 233, 0.3)"
-    },
-    "highlight-matching-tag.leftStyle": {
-        "borderWidth": "0"
-    },
-    "highlight-matching-tag.rightStyle": {
-        "borderWidth": "0"
-    },
-    // FORMATTING ——————————————————
-    "editor.formatOnPaste": true,
-    "editor.formatOnSave": true,
+    "window.zoomLevel": 0,
 }
