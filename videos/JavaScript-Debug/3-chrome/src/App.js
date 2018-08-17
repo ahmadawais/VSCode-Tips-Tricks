@@ -12,6 +12,7 @@ class App extends Component {
 	}
 
 	handleClick() {
+		const name = 'Ahmad';
 		this.setState(prevState => ({
 			isToggleOn: !prevState.isToggleOn
 		}));
