@@ -12,6 +12,6 @@ VSCode has the best coding experience for JavaScript. Period.
     - [ ] 2. VSCode Debugging Recipes
     - [ ] 3. Node.js Debugging with Nodemon
     - [ ] 4. Modern JavaScript ES6+ Debugging
-    - [ ] 5. Debug JavaScript App Frontend with Chrome
+    - [ ] 5. Debug JavaScript Frontend with Chrome
 - [ ] 7. 🤖 Node related extensions
 - [ ] 8. 🔥 Tips and tricks.
