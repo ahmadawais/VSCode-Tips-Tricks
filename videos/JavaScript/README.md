@@ -14,6 +14,3 @@ VSCode has the best coding experience for JavaScript. Period.
     4. Debug JavaScript App Frontend with Chrome
 7. Node related extensions
 8. Tips and tricks.
-
-
-$x + y = z$
