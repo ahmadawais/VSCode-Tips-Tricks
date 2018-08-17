@@ -4,6 +4,6 @@
  * @param String newHeading Heading content.
  */
 
-export const headingChanger = (newHeading) => {
-    document.querySelector('h1').textContent = newHeading
+export const headingChanger = newHeading => {
+	document.querySelector('h1').textContent = newHeading;
 };
