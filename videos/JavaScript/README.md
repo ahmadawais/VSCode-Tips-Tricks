@@ -2,15 +2,16 @@
 
 VSCode has the best coding experience for JavaScript. Period.
 
-1. ✅ Basic JavaScript settings
-2. 😮 `npm` Scripts Explorer
-3. 🏗️ Installation & Configure `ESLint`
-4. 🎭 Installation & Configure `Prettier`
-5. 🤔 Refactoring/Peeking/Definition
-6. 🌟 Debugging
-    1. VSCode Debugging Recipes
-    2. Node.js Debugging with Nodemon
-    3. Modern JavaScript ES6+ Debugging
-    4. Debug JavaScript App Frontend with Chrome
-7. 🤖 Node related extensions
-8. 🔥 Tips and tricks.
+- [x] 1. ✅ Basic JavaScript settings
+- [x] 2. 😮 `npm` Scripts Explorer
+- [x] 3. 🏗️ Installation & Configure `ESLint`
+- [x] 4. 🎭 Installation & Configure `Prettier`
+- [x] 5. 🤔 Refactoring/Peeking/Definition
+- [ ] 6. 🌟 Debugging
+    - [x] 1. Debugging without VSCode
+    - [ ] 2. VSCode Debugging Recipes
+    - [ ] 3. Node.js Debugging with Nodemon
+    - [ ] 4. Modern JavaScript ES6+ Debugging
+    - [ ] 5. Debug JavaScript App Frontend with Chrome
+- [ ] 7. 🤖 Node related extensions
+- [ ] 8. 🔥 Tips and tricks.

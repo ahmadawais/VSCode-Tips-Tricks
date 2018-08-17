@@ -1,5 +1,5 @@
 /**
- * Gulpfile.
+ * Gulp file.
  *
  * @version 1.0.0
  */
@@ -28,7 +28,6 @@ const plumber = require('gulp-plumber'); // Prevent pipe breaking caused by erro
 const pug = require('gulp-pug');
 const extReplace = require('gulp-ext-replace');
 const webpack = require('webpack');
-const gutil = require('gulp-util');
 const webpackConfig = require('./webpack.config');
 const inlineCss = require('gulp-inline-css');
 const beep = require('beepbeep');
@@ -41,10 +40,10 @@ const log = require('fancy-log');
  * @param Mixed err
  */
 const errorHandler = r => {
-    notify.onError('\n\n❌  ===> ERROR: <%= error.message %>\n')(r);
-    beep();
+	notify.onError('\n\n❌  ===> ERROR: <%= error.message %>\n')(r);
+	beep();
 
-    // this.emit('end');
+	// this.emit('end');
 };
 
 /**
@@ -54,79 +53,78 @@ const errorHandler = r => {
  * @link http://www.browsersync.io/docs/options/
  */
 const browsersync = done => {
-    browserSync.init({
-        proxy: config.projectURL,
-        open: config.browserAutoOpen,
-        injectChanges: config.injectChanges,
-        watchEvents: ['change', 'add', 'unlink', 'addDir', 'unlinkDir']
-    });
-    done();
+	browserSync.init({
+		proxy: config.projectURL,
+		open: config.browserAutoOpen,
+		injectChanges: config.injectChanges,
+		watchEvents: ['change', 'add', 'unlink', 'addDir', 'unlinkDir']
+	});
+	done();
 };
 
 // Helper function to allow browser reload with Gulp 4
 const reload = done => {
-    browserSync.reload();
-    done();
+	browserSync.reload();
+	done();
 };
 
 /**
  * Task: `styles`.
  */
 gulp.task('styles', () => {
-    return gulp
-        .src(config.styleSRC)
-        .pipe(plumber(errorHandler))
-        .pipe(sourcemaps.init())
-        .pipe(
-            sass({
-                errLogToConsole: config.errLogToConsole,
-                outputStyle: config.outputStyle,
-                precision: config.precision
-            })
-        ) // .on( 'error', sass.logError )
-        .pipe(sourcemaps.write({ includeContent: !1 }))
-        .pipe(sourcemaps.init({ loadMaps: !0 }))
-        .pipe(autoprefixer(config.BROWSERS_LIST))
-        .pipe(sourcemaps.write('./'))
-        .pipe(lineec())
-        .pipe(gulp.dest(config.styleDestination))
-        .pipe(filter('**/*.css'))
-        .pipe(mmq({ log: !0 }))
-        .pipe(browserSync.stream())
-        .pipe(rename({ suffix: '.min' }))
-        .pipe(minifycss({ maxLineLen: 10 }))
-        .pipe(lineec())
-        .pipe(gulp.dest(config.styleDestination))
-        .pipe(filter('**/*.css'))
-        .pipe(browserSync.stream())
-        .pipe(notify({ message: '\n\n✅  ===> STYLES — completed!\n', onLast: true }));
+	return gulp
+		.src(config.styleSRC)
+		.pipe(plumber(errorHandler))
+		.pipe(sourcemaps.init())
+		.pipe(
+			sass({
+				errLogToConsole: config.errLogToConsole,
+				outputStyle: config.outputStyle,
+				precision: config.precision
+			})
+		) // .on( 'error', sass.logError )
+		.pipe(sourcemaps.write({ includeContent: !1 }))
+		.pipe(sourcemaps.init({ loadMaps: !0 }))
+		.pipe(autoprefixer(config.BROWSERS_LIST))
+		.pipe(sourcemaps.write('./'))
+		.pipe(lineec())
+		.pipe(gulp.dest(config.styleDestination))
+		.pipe(filter('**/*.css'))
+		.pipe(mmq({ log: !0 }))
+		.pipe(browserSync.stream())
+		.pipe(rename({ suffix: '.min' }))
+		.pipe(minifycss({ maxLineLen: 10 }))
+		.pipe(lineec())
+		.pipe(gulp.dest(config.styleDestination))
+		.pipe(filter('**/*.css'))
+		.pipe(browserSync.stream())
+		.pipe(notify({ message: '\n\n✅  ===> STYLES — completed!\n', onLast: true }));
 });
 
 /**
  * JavaScript via webpack.
  */
 gulp.task('webpackJS', callback => {
-    plumber(errorHandler);
-    webpack(webpackConfig, (err, stats) => {
+	plumber(errorHandler);
+	webpack(webpackConfig, (err, stats) => {
+		// Show error.
+		if (err) {
+			throw new pluginError('webpack', err);
+		}
 
-        // Show error.
-        if (err) {
-            throw new pluginError('webpack', err);
-        }
+		// Log stuff.
+		log(
+			'[webpack]',
+			stats.toString({
+				colors: true,
+				progress: true
+			})
+		);
 
-        // Log stuff.
-        log(
-            '[webpack]',
-            stats.toString({
-                colors: true,
-                progress: true
-            })
-        );
-
-        // browserSync.reload();
-        callback();
-    });
-    notify({ message: '\n\n✅  ===> webpackJS — completed!\n', onLast: true });
+		// browserSync.reload();
+		callback();
+	});
+	notify({ message: '\n\n✅  ===> webpackJS — completed!\n', onLast: true });
 });
 
 /**
@@ -135,21 +133,21 @@ gulp.task('webpackJS', callback => {
  * @link https://github.com/sindresorhus/gulp-imagemin
  */
 gulp.task('images', () => {
-    return gulp
-        .src(config.imgSRC)
-        .pipe(plumber(errorHandler))
-        .pipe(
-            cache(
-                imagemin([
-                    imagemin.gifsicle({ interlaced: !0 }),
-                    imagemin.jpegtran({ progressive: !0 }),
-                    imagemin.optipng({ optimizationLevel: 3 }),
-                    imagemin.svgo({ plugins: [{ removeViewBox: !0 }, { cleanupIDs: !1 }] })
-                ])
-            )
-        )
-        .pipe(gulp.dest(config.imgDST))
-        .pipe(notify({ message: '\n\n✅  ===> IMAGES — completed!\n', onLast: true }));
+	return gulp
+		.src(config.imgSRC)
+		.pipe(plumber(errorHandler))
+		.pipe(
+			cache(
+				imagemin([
+					imagemin.gifsicle({ interlaced: !0 }),
+					imagemin.jpegtran({ progressive: !0 }),
+					imagemin.optipng({ optimizationLevel: 3 }),
+					imagemin.svgo({ plugins: [{ removeViewBox: !0 }, { cleanupIDs: !1 }] })
+				])
+			)
+		)
+		.pipe(gulp.dest(config.imgDST))
+		.pipe(notify({ message: '\n\n✅  ===> IMAGES — completed!\n', onLast: true }));
 });
 
 /**
@@ -159,36 +157,35 @@ gulp.task('images', () => {
  * each image will be regenerated.
  */
 gulp.task('clearCache', c => {
-    return cache.clearAll(c);
+	return cache.clearAll(c);
 });
 
 /**
  * Pug Views.
  */
 gulp.task('views', () => {
-    return gulp
-        .src(config.pugSRC)
-        .pipe(plumber(errorHandler))
-        .pipe(
-            pug({
-                pretty: true,
-                locals: {
+	return gulp
+		.src(config.pugSRC)
+		.pipe(plumber(errorHandler))
+		.pipe(
+			pug({
+				pretty: true,
+				locals: {
+					// Data.
+					data: {
+						baseURL: '/wp-content/themes/cptheme'
+					},
 
-                    // Data.
-                    data: {
-                        baseURL: '/wp-content/themes/cptheme'
-                    },
-
-                    // TODO: Course Data.
-                    vscodeproData: require(config.vscodeproDataFile)
-                }
-            })
-        )
-        .pipe(browserSync.stream())
-        .pipe(extReplace('.php'))
-        .pipe(gulp.dest(config.pugDST))
-        .pipe(browserSync.stream())
-        .pipe(notify({ message: '\n\n✅  ===> VIEWS — completed!\n', onLast: true }));
+					// TODO: Course Data.
+					vscodeproData: require(config.vscodeproDataFile)
+				}
+			})
+		)
+		.pipe(browserSync.stream())
+		.pipe(extReplace('.php'))
+		.pipe(gulp.dest(config.pugDST))
+		.pipe(browserSync.stream())
+		.pipe(notify({ message: '\n\n✅  ===> VIEWS — completed!\n', onLast: true }));
 });
 
 /**
@@ -197,35 +194,34 @@ gulp.task('views', () => {
  * Handle all the emails workflow.
  */
 gulp.task('emails', () => {
-    return gulp
-        .src(config.emailSRC)
-        .pipe(plumber(errorHandler))
-        .pipe(
-            pug({
-                pretty: true,
-                locals: {
-
-                    // Data that will be available throughout pug.
-                    data: {
-                        baseURL: '/wp-content/themes/cptheme'
-                    }
-                }
-            })
-        )
-        .pipe(browserSync.stream())
-        .pipe(
-            inlineCss({
-                extraCss: '',
-                applyLinkTags: true,
-                removeStyleTags: true,
-                removeLinkTags: true,
-                preserveMediaQueries: true
-            })
-        )
-        .pipe(extReplace('.php'))
-        .pipe(gulp.dest(config.emailDST))
-        .pipe(browserSync.stream())
-        .pipe(notify({ message: '\n\n✅  ===> EMAILS — completed!\n', onLast: true }));
+	return gulp
+		.src(config.emailSRC)
+		.pipe(plumber(errorHandler))
+		.pipe(
+			pug({
+				pretty: true,
+				locals: {
+					// Data that will be available throughout pug.
+					data: {
+						baseURL: '/wp-content/themes/cptheme'
+					}
+				}
+			})
+		)
+		.pipe(browserSync.stream())
+		.pipe(
+			inlineCss({
+				extraCss: '',
+				applyLinkTags: true,
+				removeStyleTags: true,
+				removeLinkTags: true,
+				preserveMediaQueries: true
+			})
+		)
+		.pipe(extReplace('.php'))
+		.pipe(gulp.dest(config.emailDST))
+		.pipe(browserSync.stream())
+		.pipe(notify({ message: '\n\n✅  ===> EMAILS — completed!\n', onLast: true }));
 });
 
 /**
@@ -240,14 +236,14 @@ gulp.task('email-watch', gulp.series('emails'));
  * Watches for file changes and runs specific tasks.
  */
 gulp.task(
-    'default',
-    gulp.parallel('styles', 'views', 'emails', 'webpackJS', 'images', browsersync, () => {
-        gulp.watch(config.watchPug, gulp.parallel('pug-watch')),
-            gulp.watch(config.watchEmails, gulp.parallel('email-watch')),
-            gulp.watch(config.watchPhp, reload),
-            gulp.watch(config.watchSvg, reload),
-            gulp.watch(config.watchStyles, gulp.parallel('styles')),
-            gulp.watch(config.watchJs, gulp.series('webpackJS', reload)),
-            gulp.watch(config.imgSRC, gulp.series('images', reload));
-    })
+	'default',
+	gulp.parallel('styles', 'views', 'emails', 'webpackJS', 'images', browsersync, () => {
+		gulp.watch(config.watchPug, gulp.parallel('pug-watch')),
+		gulp.watch(config.watchEmails, gulp.parallel('email-watch')),
+		gulp.watch(config.watchPhp, reload),
+		gulp.watch(config.watchSvg, reload),
+		gulp.watch(config.watchStyles, gulp.parallel('styles')),
+		gulp.watch(config.watchJs, gulp.series('webpackJS', reload)),
+		gulp.watch(config.imgSRC, gulp.series('images', reload));
+	})
 );
