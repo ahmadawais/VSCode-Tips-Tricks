@@ -2,18 +2,5 @@
   // ——— Not in the Course yet —————
   "telemetry.enableCrashReporter": false,
   "telemetry.enableTelemetry": false,
-  "workbench.settings.editor": "json",
-  "breadcrumbs.enabled": false,
-  // SPELLINGS —————————————————————————————————
-  "spellright.documentTypes": [
-    "markdown",
-    "latex",
-    "plaintext",
-    "html",
-    "jade",
-    "pug",
-    "css",
-    "php",
-    "javascript"
-  ]
+  "workbench.settings.editor": "json"
 }
