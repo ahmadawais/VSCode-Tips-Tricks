@@ -1,0 +1,20 @@
+{
+  "name": "vscodepro",
+  "description": "VSCode.pro for Power Users",
+  "version": "1.0.0",
+  "author": "AhmadAwais",
+  "license": "MIT",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "babel-node index.js",
+    "debug": "babel-node debug index.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-cgb": "^1.5.0",
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0"
+  }
+}
