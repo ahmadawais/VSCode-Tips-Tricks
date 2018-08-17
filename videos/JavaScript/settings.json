@@ -1,28 +1,16 @@
 {
-  // JAVASCRIPT ——————————————————————————————————————————
-  "[javascript]": {
-    "editor.formatOnSave": true // True for prettier.
-  },
-  "npm.enableScriptExplorer": true,
-  // ESLint.
-  "eslint.autoFixOnSave": true,
-  "eslint.alwaysShowStatus": true,
-  // Prettier.
-  "prettier.eslintIntegration": true,
-  "prettier.printWidth": 120,
-  "prettier.singleQuote": true,
-  "prettier.useTabs": true,
-  "prettier.tabWidth": 4
+	// JAVASCRIPT ——————————————————————————————————————————
+	"[javascript]": {
+		"editor.formatOnSave": true // True for prettier.
+	},
+	"npm.enableScriptExplorer": true,
+	// ESLint.
+	"eslint.autoFixOnSave": true,
+	"eslint.alwaysShowStatus": true,
+	// Prettier.
+	"prettier.eslintIntegration": true,
+	"prettier.printWidth": 120,
+	"prettier.singleQuote": true,
+	"prettier.useTabs": true,
+	"prettier.tabWidth": 4
 }
-// Extensions.
-// https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome
-// https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv
-// https://marketplace.visualstudio.com/items?itemName=drKnoxy.eslint-disable-snippets
-// https://marketplace.visualstudio.com/items?itemName=letrieu.expand-region
-// https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost
-// https://marketplace.visualstudio.com/items?itemName=eg2.vscode-npm-script
-// https://marketplace.visualstudio.com/items?itemName=pflannery.vscode-versionlens
-// https://marketplace.visualstudio.com/items?itemName=dkundel.vscode-npm-source
-// https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets
-// https: //marketplace.visualstudio.com/items?itemName=leizongmin.node-module-intellisense
-// https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode

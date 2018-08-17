@@ -15,3 +15,18 @@ VSCode has the best coding experience for JavaScript. Period.
     - [x] 5. Debug JavaScript Frontend with Chrome
 - [ ] 7. 🤖 Node related extensions
 - [ ] 8. 🔥 Tips and tricks.
+
+
+## Extensions
+
+- [x] [msjsdiag.debugger-for-chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)
+- [ ] [mikestead.dotenv](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv)
+- [ ] [drKnoxy.eslint-disable-snippets](https://marketplace.visualstudio.com/items?itemName=drKnoxy.eslint-disable-snippets)
+- [ ] [letrieu.expand-region](https://marketplace.visualstudio.com/items?itemName=letrieu.expand-region)
+- [ ] [wix.vscode-import-cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost)
+- [ ] [eg2.vscode-npm-script](https://marketplace.visualstudio.com/items?itemName=eg2.vscode-npm-script)
+- [ ] [pflannery.vscode-versionlens](https://marketplace.visualstudio.com/items?itemName=pflannery.vscode-versionlens)
+- [ ] [dkundel.vscode-npm-source](https://marketplace.visualstudio.com/items?itemName=dkundel.vscode-npm-source)
+- [ ] [xabikos.JavaScriptSnippets](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)
+- [ ] [leizongmin.node-module-intellisense](https://marketplace.visualstudio.com/items?itemName=leizongmin.node-module-intellisense)
+- [ ] [WallabyJs.quokka-vscode](https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode)
