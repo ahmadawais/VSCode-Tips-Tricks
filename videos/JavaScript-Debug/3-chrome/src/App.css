@@ -8,7 +8,7 @@
 }
 
 .App-header {
-	background-color: #222;
+	background: linear-gradient(270deg, #373277, #4e44d6);
 	height: 150px;
 	padding: 20px;
 	color: white;
@@ -35,10 +35,18 @@ button {
 	display: table;
 	width: 50%;
 	padding: 3rem;
-	font-size: 5rem;
+	font-size: 3rem;
 	border: none;
-	background: gold;
-	margin: 5rem auto;
+	margin: 3rem auto;
 	cursor: pointer;
-	outline: 1px solid #000000;
+	outline: 0;
+	color: #ffffff;
+	background: linear-gradient(270deg, #373277, #4e44d6);
+	box-shadow: 0 0 5rem #242526;
+	transition: all 0.6s ease-in;
+}
+
+button:hover {
+	transition: all 0.6s ease-in;
+	background: linear-gradient(270deg, #4e44d6, #373277);
 }
