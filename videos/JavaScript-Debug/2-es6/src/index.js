@@ -6,9 +6,7 @@
  * @since 1.0.0
  */
 
-import { headingChanger } from '../modules/headingChanger';
+import { log } from '../modules/log';
 
 const name = 'AhmadAwais';
 log(name, 'NAME');
-
-headingChanger('New VSCode.pro!');

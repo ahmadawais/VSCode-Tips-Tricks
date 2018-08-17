@@ -5,17 +5,11 @@
 	"version": "0.2.0",
 	"configurations": [
 		{
-			"type": "node",
-			"request": "launch",
-			"name": "Launch Program",
-			"program": "${workspaceFolder}/src/index.js"
-		},
-		{
 			"type": "chrome",
 			"request": "launch",
 			"name": "Launch Chrome against localhost",
-			"url": "http://localhost:3002",
-			"webRoot": "${workspaceFolder}"
+			"url": "http://localhost:3000",
+			"webRoot": "${workspaceRoot}/src"
 		}
 	]
 }

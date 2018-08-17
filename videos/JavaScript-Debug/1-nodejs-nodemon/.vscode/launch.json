@@ -7,8 +7,6 @@
 			"name": "Node: Nodemon",
 			"port": 9229,
 			"restart": true
-			// "processId": "${command:PickProcess}",
-			// "protocol": "inspector"
 		}
 	]
 }
