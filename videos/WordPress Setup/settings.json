@@ -1,0 +1,34 @@
+{
+	// PHP/WORDPRESS  —————————————————————————————
+	"php.suggest.basic": false,
+	"intelephense.formatProvider.enable": false,
+	"[php]": {
+		"editor.formatOnSave": false,
+		"editor.formatOnPaste": false
+	},
+	// PHPCS.
+	"phpcs.executablePath": "/usr/local/bin/phpcs",
+	"phpcs.standard": "WPAA",
+	// PHPCBF.
+	"phpcbf.onsave": true,
+	"phpcbf.standard": "WPAA",
+	"phpcbf.executablePath": "/usr/local/bin/phpcbf",
+	// PHP Files.
+	"files.associations": {
+		".php_cs": "php",
+		".php_cs.dist": "php",
+		// Super important, otherwise intelephense will not auto-index your project.
+		"*.php": "php"
+	},
+	"phpcs.ignorePatterns": ["*/vendor/*", "*/vendors/*"],
+	// Save and Run.
+	"saveAndRun": {
+		"commands": [
+			{
+				"match": "\\.php$",
+				"cmd": "phpcbf -q --standard='WPAA' ${file}",
+				"silent": true
+			}
+		]
+	}
+}

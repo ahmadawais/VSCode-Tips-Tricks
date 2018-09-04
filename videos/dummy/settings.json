@@ -1,165 +1,152 @@
 {
-  // JAVASCRIPT ——————————————————————————————————————————
-  "[javascript]": {
-    "editor.formatOnSave": true // True for prettier.
-  },
-  "npm.enableScriptExplorer": true,
-  // ESLint.
-  "eslint.enable": true,
-  "eslint.autoFixOnSave": true,
-  "eslint.alwaysShowStatus": true,
-  // Prettier.
-  "prettier.eslintIntegration": true,
-  "prettier.printWidth": 120,
-  "prettier.singleQuote": true,
-  "prettier.useTabs": true,
-  "prettier.tabWidth": 4,
-  //// ——————————————————————————————————————————
-  //———————————— PHP/WORDPRESS ———————————————————
-  //// ——————————————————————————————————————————
-  "php.suggest.basic": false,
-  "intelephense.formatProvider.enable": false,
-  "[php]": {
-    "editor.formatOnSave": false,
-    "editor.formatOnPaste": false
-  },
-  // PHPCS.
-  "phpcs.executablePath": "/usr/local/bin/phpcs",
-  "phpcs.standard": "WPAA",
-  // PHPCBF
-  "phpcbf.onsave": true,
-  "phpcbf.standard": "WPAA",
-  "phpcbf.executablePath": "/usr/local/bin/phpcbf",
-  // PHP Files.
-  "files.associations": {
-    ".php_cs": "php",
-    ".php_cs.dist": "php",
-    // Super important, otherwise intelephense will not auto-index your project.
-    "*.php": "php"
-  },
-  "phpcs.ignorePatterns": ["*/vendor/*", "*/vendors/*"],
-  // Save and Run.
-  "saveAndRun": {
-    "commands": [
-      {
-        "match": "\\.php$",
-        "cmd": "phpcbf -q --standard='WPAA' ${file}",
-        "silent": true
-      }
-    ]
-  },
-  //// ——————————————————————————————————————————
-  // ———————————————— MORE ——————————————————
-  //// ——————————————————————————————————————————
-  // MOAR.
-  "editor.codeActionsOnSave": {
-    "source.organizeImports": true
-  },
-  // ———————————————————————————————————— COURSE ——————————————————————————————————————————————————————
-  // ———————————————————————————————————— COURSE ——————————————————————————————————————————————————————
-  // ———————————————————————————————————— COURSE ——————————————————————————————————————————————————————
-  // ———————————————————————————————————— COURSE ——————————————————————————————————————————————————————
-  // ———————————————————————————————————— COURSE ——————————————————————————————————————————————————————
-  // THEME SETUP —————————————————————————————————
-  "workbench.colorTheme": "Shades of Purple",
-  "workbench.iconTheme": "vscode-icons",
-  // FONTS SETUP —————————————————————————————————
-  "editor.fontFamily": "Operator Mono, Fira Code, Menlo, Monaco, 'Courier New', monospace",
-  "terminal.integrated.fontFamily": "'Operator Mono', 'Inconsolata for Powerline', monospace",
-  "editor.fontSize": 17,
-  "terminal.integrated.fontSize": 17,
-  "editor.fontLigatures": true,
-  "editor.lineHeight": 24.65,
-  "editor.fontWeight": "400",
-  "editor.letterSpacing": 0.5,
-  "workbench.fontAliasing": "auto",
-  // CURSOR SETUP ————————————————————————————————
-  "editor.cursorBlinking": "solid",
-  "editor.cursorWidth": 5,
-  // UI IMPROVEMENTS —————————————————————————————
-  "editor.minimap.enabled": false,
-  "workbench.editor.enablePreview": false,
-  "explorer.openEditors.visible": 1,
-  "workbench.startupEditor": "newUntitledFile",
-  "editor.codeLens": false,
-  "explorer.confirmDragAndDrop": false,
-  "editor.snippetSuggestions": "top",
-  "editor.tabCompletion": true,
-  "editor.quickSuggestionsDelay": 0,
-  "editor.multiCursorModifier": "ctrlCmd",
-  "terminal.integrated.macOptionIsMeta": true,
-  "workbench.statusBar.feedback.visible": false,
-  "editor.wordWrap": "on",
-  "debug.toolBarLocation": "docked",
-  "window.restoreFullscreen": true,
-  "workbench.editor.tabCloseButton": "off",
-  "workbench.panel.defaultLocation": "right",
-  "terminal.integrated.drawBoldTextInBrightColors": false,
-  "gulp.autoDetect": "off",
-  "grunt.autoDetect": "off",
-  "editor.rulers": [80, 100, 120],
-  // WHITESPACE COMMANDO SETUP ———————————————————
-  "editor.renderWhitespace": "all",
-  "files.trimTrailingWhitespace": true,
-  "files.trimFinalNewlines": true,
-  "diffEditor.ignoreTrimWhitespace": false,
-  "files.insertFinalNewline": true,
-  // MACROS ——————————————————————————————————————
-  "macros": {
-    "collapseAndClose": [
-      "workbench.files.action.collapseExplorerFolders",
-      "workbench.action.closeAllEditors"
-    ]
-  },
-  // GIT —————————————————————————————————————————
-  "git.autofetch": true,
-  "git.enableSmartCommit": true,
-  "gitlens.gitExplorer.files.layout": "auto",
-  "gitlens.currentLine.enabled": false,
-  "gitlens.hovers.enabled": false,
-  "gitlens.keymap": "alternate",
-  "gitlens.advanced.messages": {
-    "suppressShowKeyBindingsNotice": true
-  },
-  // EMMET ———————————————————————————————————————
-  "emmet.triggerExpansionOnTab": true,
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
-  },
-  // EXT: HIGHLIGHT MATCHING TAG —————————————————
-  "highlight-matching-tag.style": {
-    "backgroundColor": "rgba(165, 153, 233, 0.3)"
-  },
-  "highlight-matching-tag.leftStyle": {
-    "borderWidth": "0"
-  },
-  "highlight-matching-tag.rightStyle": {
-    "borderWidth": "0"
-  },
-  // FORMATTING ———————————————————————————————————
-  "editor.formatOnPaste": true,
-  "editor.formatOnSave": true,
-  // PUG ——————————————————————————————————————————
-  "puglint.enable": true,
-  "puglint.run": "onSave",
-  // MARKDOWN —————————————————————————————————————
-  "[markdown]": {
-    "editor.formatOnSave": false,
-    "editor.quickSuggestions": true
-  },
-  "files.defaultLanguage": "markdown",
-  // BREADCRUMBS —————————————————————————————————
-  "breadcrumbs.enabled": true,
-  // Spellings —————————————————————————————————
-  "spellright.documentTypes": [
-    "plaintext",
-    "markdown",
-    "latex",
-    "html",
-    "jade",
-    "pug",
-    "css",
-    "php",
-    "javascript"
-  ]
+	//// ——————————————————————————————————————————
+	//———————————— PHP/WORDPRESS ———————————————————
+	//// ——————————————————————————————————————————
+	"php.suggest.basic": false,
+	"intelephense.formatProvider.enable": false,
+	"[php]": {
+		"editor.formatOnSave": false,
+		"editor.formatOnPaste": false
+	},
+	// PHPCS.
+	"phpcs.executablePath": "/usr/local/bin/phpcs",
+	"phpcs.standard": "WPAA",
+	// PHPCBF.
+	"phpcbf.onsave": true,
+	"phpcbf.standard": "WPAA",
+	"phpcbf.executablePath": "/usr/local/bin/phpcbf",
+	// PHP Files.
+	"files.associations": {
+		".php_cs": "php",
+		".php_cs.dist": "php",
+		// Super important, otherwise intelephense will not auto-index your project.
+		"*.php": "php"
+	},
+	"phpcs.ignorePatterns": ["*/vendor/*", "*/vendors/*"],
+	// Save and Run.
+	"saveAndRun": {
+		"commands": [
+			{
+				"match": "\\.php$",
+				"cmd": "phpcbf -q --standard='WPAA' ${file}",
+				"silent": true
+			}
+		]
+	},
+	//// ——————————————————————————————————————————
+	// ———————————————— MORE ——————————————————
+	//// ——————————————————————————————————————————
+	// MOAR.
+	"editor.codeActionsOnSave": {
+		"source.organizeImports": true
+	},
+	// ———————————————————————————————————— COURSE ——————————————————————————————————————————————————————
+	// ———————————————————————————————————— COURSE ——————————————————————————————————————————————————————
+	// ———————————————————————————————————— COURSE ——————————————————————————————————————————————————————
+	// ———————————————————————————————————— COURSE ——————————————————————————————————————————————————————
+	// ———————————————————————————————————— COURSE ——————————————————————————————————————————————————————
+	// THEME SETUP —————————————————————————————————
+	"workbench.colorTheme": "Shades of Purple",
+	"workbench.iconTheme": "vscode-icons",
+	// FONTS SETUP —————————————————————————————————
+	"editor.fontFamily": "Operator Mono, Fira Code, Menlo, Monaco, 'Courier New', monospace",
+	"terminal.integrated.fontFamily": "'Operator Mono', 'Inconsolata for Powerline', monospace",
+	"editor.fontSize": 17,
+	"terminal.integrated.fontSize": 17,
+	"editor.fontLigatures": true,
+	"editor.lineHeight": 24.65,
+	"editor.fontWeight": "400",
+	"editor.letterSpacing": 0.5,
+	"workbench.fontAliasing": "auto",
+	// CURSOR SETUP ————————————————————————————————
+	"editor.cursorBlinking": "solid",
+	"editor.cursorWidth": 5,
+	// UI IMPROVEMENTS —————————————————————————————
+	"editor.minimap.enabled": false,
+	"workbench.editor.enablePreview": false,
+	"explorer.openEditors.visible": 1,
+	"workbench.startupEditor": "newUntitledFile",
+	"editor.codeLens": false,
+	"explorer.confirmDragAndDrop": false,
+	"editor.snippetSuggestions": "top",
+	"editor.tabCompletion": true,
+	"editor.quickSuggestionsDelay": 0,
+	"editor.multiCursorModifier": "ctrlCmd",
+	"terminal.integrated.macOptionIsMeta": true,
+	"workbench.statusBar.feedback.visible": false,
+	"editor.wordWrap": "on",
+	"debug.toolBarLocation": "docked",
+	"window.restoreFullscreen": true,
+	"workbench.editor.tabCloseButton": "off",
+	"workbench.panel.defaultLocation": "right",
+	"terminal.integrated.drawBoldTextInBrightColors": false,
+	"gulp.autoDetect": "off",
+	"grunt.autoDetect": "off",
+	"editor.rulers": [80, 100, 120],
+	// WHITESPACE COMMANDO SETUP ———————————————————
+	"editor.renderWhitespace": "all",
+	"files.trimTrailingWhitespace": true,
+	"files.trimFinalNewlines": true,
+	"diffEditor.ignoreTrimWhitespace": false,
+	"files.insertFinalNewline": true,
+	// MACROS ——————————————————————————————————————
+	"macros": {
+		"collapseAndClose": ["workbench.files.action.collapseExplorerFolders", "workbench.action.closeAllEditors"]
+	},
+	// GIT —————————————————————————————————————————
+	"git.autofetch": true,
+	"git.enableSmartCommit": true,
+	"gitlens.gitExplorer.files.layout": "auto",
+	"gitlens.currentLine.enabled": false,
+	"gitlens.hovers.enabled": false,
+	"gitlens.keymap": "alternate",
+	"gitlens.advanced.messages": {
+		"suppressShowKeyBindingsNotice": true
+	},
+	// EMMET ———————————————————————————————————————
+	"emmet.triggerExpansionOnTab": true,
+	"emmet.includeLanguages": {
+		"javascript": "javascriptreact"
+	},
+	// EXT: HIGHLIGHT MATCHING TAG —————————————————
+	"highlight-matching-tag.style": {
+		"backgroundColor": "rgba(165, 153, 233, 0.3)"
+	},
+	"highlight-matching-tag.leftStyle": {
+		"borderWidth": "0"
+	},
+	"highlight-matching-tag.rightStyle": {
+		"borderWidth": "0"
+	},
+	// FORMATTING ———————————————————————————————————
+	"editor.formatOnPaste": true,
+	"editor.formatOnSave": true,
+	// PUG ——————————————————————————————————————————
+	"puglint.enable": true,
+	"puglint.run": "onSave",
+	// MARKDOWN —————————————————————————————————————
+	"[markdown]": {
+		"editor.formatOnSave": false,
+		"editor.quickSuggestions": true
+	},
+	"files.defaultLanguage": "markdown",
+	// BREADCRUMBS —————————————————————————————————
+	"breadcrumbs.enabled": true,
+	// Spellings —————————————————————————————————
+	"spellright.documentTypes": ["plaintext", "markdown", "latex", "html", "jade", "pug", "css", "php", "javascript"],
+	// JAVASCRIPT ——————————————————————————————————————————
+	"[javascript]": {
+		"editor.formatOnSave": true // True for prettier.
+	},
+	"npm.enableScriptExplorer": true,
+	// ESLINT.
+	"eslint.autoFixOnSave": true,
+	"eslint.alwaysShowStatus": true,
+	// PRETTIER.
+	"prettier.eslintIntegration": true,
+	"prettier.printWidth": 120,
+	"prettier.singleQuote": true,
+	"prettier.useTabs": true,
+	"prettier.tabWidth": 4
+	// PHP  ——————————————————————————————————————————
 }
