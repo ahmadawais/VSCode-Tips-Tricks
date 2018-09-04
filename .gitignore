@@ -69,3 +69,10 @@ assets/sass/HTML
 assets/sass/Rails
 HTML
 Rails
+
+# Custom WP Install
+videos/WordPress-Setup/wpdebug/app
+videos/WordPress-Setup/wpdebug/conf
+videos/WordPress-Setup/wpdebug/logs
+!videos/WordPress-Setup/wpdebug/conf/php/7.2.0/php.ini
+videos/WordPress-Setup/wpdebug/conf
