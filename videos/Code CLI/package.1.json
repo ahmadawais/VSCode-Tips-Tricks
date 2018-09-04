@@ -1,0 +1,15 @@
+{
+	"name": "vscodeexample",
+	"version": "1.0.0",
+	"description": "",
+	"main": "stack.js",
+	"scripts": {
+		"test": "ava stack.js --verbose --watch"
+	},
+	"keywords": [],
+	"author": "AhmadAwais",
+	"license": "MIT",
+	"devDependencies": {
+		"ava": "^1.0.0-beta.3"
+	}
+}
