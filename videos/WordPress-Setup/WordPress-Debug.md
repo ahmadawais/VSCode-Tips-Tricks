@@ -49,7 +49,7 @@ xdebug.remote_autostart = 1
 
 > While only the above option is required but some 3rd party extension/plugin for local can sometimes change things so make sure in the `[Xdebug]` section all the following settings are set to `1` (only if your debugger is not working).
 
-```INI
+```ini
 xdebug.scream = 1
 xdebug.remote_enable = 1
 xdebug.show_local_vars = 1
