@@ -10,10 +10,10 @@
 	},
 	// PHPCS.
 	"phpcs.executablePath": "/usr/local/bin/phpcs",
-	"phpcs.standard": "WPAA",
+	"phpcs.standard": "WordPress",
 	// PHPCBF.
 	"phpcbf.onsave": true,
-	"phpcbf.standard": "WPAA",
+	"phpcbf.standard": "WordPress",
 	"phpcbf.executablePath": "/usr/local/bin/phpcbf",
 	// PHP Files.
 	"files.associations": {
