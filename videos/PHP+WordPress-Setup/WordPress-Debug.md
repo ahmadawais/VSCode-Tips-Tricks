@@ -60,7 +60,7 @@ xdebug.remote_connect_back = 1
 
 Save the `php.ini` file.
 
-### 3️⃣ Restart The Site
+### 3️⃣  Restart The Site
 
 > Restart your site container in `Local by FlyWheel` to apply new settings.
 
