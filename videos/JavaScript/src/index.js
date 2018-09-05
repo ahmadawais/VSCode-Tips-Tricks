@@ -6,10 +6,10 @@
  * @since 1.0.0
  */
 
-import { log } from '../modules/log';
-import { sum } from '../modules/sum';
-import { subtract } from '../modules/subtract';
 import { headingChanger } from '../modules/headingChanger';
+import { log } from '../modules/log';
+import { subtract } from '../modules/subtract';
+import { sum } from '../modules/sum';
 
 // Fancy log.
 const name = 'Ahmad';
