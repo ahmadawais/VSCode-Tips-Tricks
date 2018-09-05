@@ -1,0 +1,16 @@
+# PHP Extensions
+
+- [ ] [PHP Intelephense](https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client)
+- [ ] [PHP IntelliSense](https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-intellisense)
+- [ ] [PHP Debug](https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-debug)
+- [ ] [PHP Namespace Resolver](https://marketplace.visualstudio.com/items?itemName=MehediDracula.php-namespace-resolver)
+- [ ] [PHP Symbols](https://marketplace.visualstudio.com/items?itemName=linyang95.php-symbols)
+- [ ] [phpcs](https://marketplace.visualstudio.com/items?itemName=ikappas.phpcs)
+- [ ] [phpcbf](https://marketplace.visualstudio.com/items?itemName=persoderlind.vscode-phpcbf)
+- [ ] [Php DocBlock Generator](https://marketplace.visualstudio.com/items?itemName=vincentkos.php-docblock-generator)
+- [ ] [PHP DocBlocker](https://marketplace.visualstudio.com/items?itemName=neilbrayfield.php-docblocker)
+- [ ] [phpdoc-comment-vscode-plugin](https://marketplace.visualstudio.com/items?itemName=rexshi.phpdoc-comment-vscode-plugin)
+- [ ] [Composer](https://marketplace.visualstudio.com/items?itemName=ikappas.composer)
+- [ ] [WordPress Toolbox](https://marketplace.visualstudio.com/items?itemName=wordpresstoolbox.wordpress-toolbox)
+- [ ] [Save and Run](https://marketplace.visualstudio.com/items?itemName=wk-j.save-and-run)
+- [ ] [Search WordPress Docs](https://marketplace.visualstudio.com/items?itemName=yogensia.searchwpdocs)
