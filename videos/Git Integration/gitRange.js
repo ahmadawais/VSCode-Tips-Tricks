@@ -19,3 +19,11 @@ const sum = (a, b) => a + b;
  * @param {Number} b
  */
 const sub = (a, b) => a - b;
+
+/**
+ * Multiplication.
+ *
+ * @param {Number} a
+ * @param {Number} b
+ */
+const sum = (a, b) => a * b;
