@@ -29,7 +29,7 @@ And then go to VSCode, install [phpcs](https://ahmda.ws/2CeELXC) extension and t
 ```json
 // Setting for phpcs.
 "phpcs.executablePath": "/usr/local/bin/phpcs",
-"phpcs.standard": "WPAA",
+"phpcs.standard": "WordPress",
 ```
 
 Check the available standards `phpcs -i`
