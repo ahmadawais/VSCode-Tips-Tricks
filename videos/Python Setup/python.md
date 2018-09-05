@@ -16,6 +16,17 @@
 - [Unit testing](https://code.visualstudio.com/docs/python/unit-testing) - Configure unit test environments and discover, run, and debug tests.
 - [Settings reference](https://code.visualstudio.com/docs/python/settings-reference) - Explore the full range of Python-related settings in VS Code.
 
+## Moar Extensions
+
+- [Python for VSCode](https://marketplace.visualstudio.com/items?itemName=tht13.python)
+- [MagicPython](https://marketplace.visualstudio.com/items?itemName=magicstack.MagicPython)
+- [Python Extended](https://marketplace.visualstudio.com/items?itemName=tushortz.python-extended-snippets)
+- [Python Docs](https://marketplace.visualstudio.com/items?itemName=Mukundan.python-docs)
+- [Python Coding Conventions](https://marketplace.visualstudio.com/items?itemName=igress.python-coding-conventions)
+- [Python Extension Pack](https://marketplace.visualstudio.com/items?itemName=donjayamanne.python-extension-pack)
+- [python-snippets](https://marketplace.visualstudio.com/items?itemName=cstrap.python-snippets)
+- [MOAAAR](https://marketplace.visualstudio.com/search?term=python&target=VSCode&category=All%20categories&sortBy=Relevance)
+
 ## Customize
 
 > Customize the python lang settings with `COMMAND (⌘) + COMMA (,)` and then search for `python.`
