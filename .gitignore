@@ -71,9 +71,9 @@ HTML
 Rails
 
 # Custom WP Install
-videos/WordPress-Setup/wpdebug/app/
-videos/WordPress-Setup/wpdebug/logs/
-videos/WordPress-Setup/wpdebug/conf/apache
-videos/WordPress-Setup/wpdebug/conf/mysql
-videos/WordPress-Setup/wpdebug/conf/nginx
-videos/WordPress-Setup/wpdebug/conf/php/7.2.0/etc
+videos/PHP+WordPress-Setup/wpdebug/app/
+videos/PHP+WordPress-Setup/wpdebug/logs/
+videos/PHP+WordPress-Setup/wpdebug/conf/apache
+videos/PHP+WordPress-Setup/wpdebug/conf/mysql
+videos/PHP+WordPress-Setup/wpdebug/conf/nginx
+videos/PHP+WordPress-Setup/wpdebug/conf/php/7.2.0/etc
