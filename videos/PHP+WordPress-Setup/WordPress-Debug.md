@@ -36,7 +36,7 @@ Here're are some easy steps to follow to make sure you can debug WordPress in Lo
 
 ### 2️⃣ Configure Xdebug
 
-> Configure `xdebug.remote_autostart = 1`.
+> Configure `xdebug.remote_autostart = 1` in the `php.ini` file.
 
 Now in the right environment we need to configure Xdebug for that:
 
