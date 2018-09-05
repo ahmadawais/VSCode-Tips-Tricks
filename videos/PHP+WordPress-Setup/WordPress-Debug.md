@@ -58,7 +58,7 @@ xdebug.remote_autostart = 1
 xdebug.remote_connect_back = 1
 ```
 
-Save the php.ini file.
+Save the `php.ini` file.
 
 ### 3️⃣  Restart The Site
 
