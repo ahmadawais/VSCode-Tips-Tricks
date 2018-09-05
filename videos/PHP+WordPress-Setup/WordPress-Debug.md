@@ -7,9 +7,10 @@
 ## 🚅 TL;DR
 
 - Make sure your `Local by FlyWheel` WordPress install is a custom install
-- Configure `xdebug.remote_autostart = 1`
+- Configure `xdebug.remote_autostart = 1` in the `php.ini` file
 - Restart your site container in `Local by FlyWheel` to apply new settings
-- Install PHP Debugger extension and add PHP Debugger configuration with an extra property for the `Listen for Xdebug` section i.e. Add this `"pathMappings": {"/app/public": "${workspaceRoot}"}`
+- Install VSCode PHP Debugger extension
+- Add PHP Debugger Configuration with an extra property for the `Listen for Xdebug` section i.e. `"pathMappings": {"/app/public": "${workspaceRoot}"}`
 
 ## 🚥 Detailed Tutorial
 
