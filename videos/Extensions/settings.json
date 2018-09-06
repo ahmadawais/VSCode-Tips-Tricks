@@ -1,41 +1,4 @@
 {
-	//// ——————————————————————————————————————————
-	//———————————— PHP/WORDPRESS ———————————————————
-	//// ——————————————————————————————————————————
-	"php.suggest.basic": false,
-	"intelephense.formatProvider.enable": false,
-	"[php]": {
-		"editor.formatOnSave": false,
-		"editor.formatOnPaste": false
-	},
-	// PHPCS.
-	"phpcs.executablePath": "/usr/local/bin/phpcs",
-	"phpcs.standard": "WordPress",
-	// PHPCBF.
-	"phpcbf.onsave": true,
-	"phpcbf.standard": "WordPress",
-	"phpcbf.executablePath": "/usr/local/bin/phpcbf",
-	// PHP Files.
-	"files.associations": {
-		".php_cs": "php",
-		".php_cs.dist": "php",
-		// Super important, otherwise intelephense will not auto-index your project.
-		"*.php": "php"
-	},
-	"phpcs.ignorePatterns": ["*/vendor/*", "*/vendors/*"],
-	// Save and Run.
-	"saveAndRun": {
-		"commands": [
-			{
-				"match": "\\.php$",
-				"cmd": "phpcbf -q --standard='WPAA' ${file}",
-				"silent": true
-			}
-		]
-	},
-	//// ——————————————————————————————————————————
-	// ———————————————— MORE ——————————————————
-	//// ——————————————————————————————————————————
 	// MOAR.
 	"editor.codeActionsOnSave": {
 		"source.organizeImports": true
@@ -147,6 +110,39 @@
 	"prettier.printWidth": 120,
 	"prettier.singleQuote": true,
 	"prettier.useTabs": true,
-	"prettier.tabWidth": 4
-	// PHP  ——————————————————————————————————————————
+	"prettier.tabWidth": 4,
+	// PHP/WORDPRESS  —————————————————————————————
+	"php.suggest.basic": false,
+	"intelephense.formatProvider.enable": false,
+	"[php]": {
+		"editor.formatOnSave": false,
+		"editor.formatOnPaste": false
+	},
+	// PHPCS.
+	"phpcs.executablePath": "/usr/local/bin/phpcs",
+	"phpcs.standard": "WordPress",
+	// PHPCBF.
+	"phpcbf.onsave": true,
+	"phpcbf.standard": "WordPress",
+	"phpcbf.executablePath": "/usr/local/bin/phpcbf",
+	// PHP Files.
+	"files.associations": {
+		".php_cs": "php",
+		".php_cs.dist": "php",
+		// Super important, otherwise intelephense will not auto-index your project.
+		"*.php": "php",
+		".exports": "shellscript",
+		".paths": "shellscript"
+	},
+	"phpcs.ignorePatterns": ["*/vendor/*", "*/vendors/*"],
+	// Save and Run.
+	"saveAndRun": {
+		"commands": [
+			{
+				"match": "\\.php$",
+				"cmd": "phpcbf -q --standard='WordPress' ${file}",
+				"silent": true
+			}
+		]
+	}
 }
