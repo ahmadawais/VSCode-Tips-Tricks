@@ -33,3 +33,6 @@ Xdebug
 VSCODEPRO
 Linting
 conda
+rubocop
+Haml
+Solargraph
