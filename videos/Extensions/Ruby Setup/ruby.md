@@ -11,4 +11,4 @@ Extensions to install.
 - [Simple Ruby ERB](https://marketplace.visualstudio.com/items?itemName=vortizhe.simple-ruby-erb)
 - [Ruby Solargraph](https://marketplace.visualstudio.com/items?itemName=castwide.solargraph)
 - [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
-- [MOAAAR](https://marketplace.visualstudio.com/search?term=ruby&target=VSCode&category=All%20categories&sortBy=Relevance)
+- [MOAAAR Extensions](https://marketplace.visualstudio.com/search?term=ruby&target=VSCode&category=All%20categories&sortBy=Relevance)
