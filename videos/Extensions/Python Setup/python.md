@@ -26,7 +26,7 @@
 - [Python Extension Pack](https://marketplace.visualstudio.com/items?itemName=donjayamanne.python-extension-pack)
 - [python-snippets](https://marketplace.visualstudio.com/items?itemName=cstrap.python-snippets)
 - [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
-- [MOAAAR](https://marketplace.visualstudio.com/search?term=python&target=VSCode&category=All%20categories&sortBy=Relevance)
+- [MOAAAR Extensions](https://marketplace.visualstudio.com/search?term=python&target=VSCode&category=All%20categories&sortBy=Relevance)
 
 ## Customize
 
