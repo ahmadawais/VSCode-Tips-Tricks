@@ -1,0 +1,11 @@
+{
+	"files.associations": {
+		".php_cs": "php",
+		".php_cs.dist": "php",
+		// Super important, otherwise intelephense will not auto-index your project.
+		"*.php": "php",
+		".exports": "shellscript",
+		".paths": "shellscript",
+		".ahmad": "shellscript"
+	}
+}
