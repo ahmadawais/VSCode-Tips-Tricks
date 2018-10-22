@@ -1,17 +1,8 @@
 {
-  // ——— Not in the Course yet —————
-  "telemetry.enableCrashReporter": false,
-  "telemetry.enableTelemetry": false,
-  "workbench.settings.editor": "json",
-  "spellright.language": "en",
-  "spellright.documentTypes": [
-    "latex",
-    "plaintext",
-    "html",
-    "jade",
-    "pug",
-    "css",
-    "php",
-    "javascript"
-  ]
+	// ——— Not in the Course yet —————
+	"telemetry.enableCrashReporter": false,
+	"telemetry.enableTelemetry": false,
+	"workbench.settings.editor": "json",
+	"spellright.language": ["en"],
+	"spellright.documentTypes": ["latex", "plaintext", "html", "jade", "pug", "css", "php", "javascript"]
 }
