@@ -70,5 +70,9 @@
 - [x] [wayou.vscode-todo-highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)
 - [x] [formulahendry.code-runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
 - [ ] [project-manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)
-- [ ] [fabiospampinato.vscode-terminals](https://marketplace.visualstudio.com/items?itemName=fabiospampinato.vscode-terminals)
 - [ ] [Shan.code-settings-sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
+
+
+## 🤔 MOAAAAAAAARRRR Extensions (For future course updates)
+
+- [ ] [fabiospampinato.vscode-terminals](https://marketplace.visualstudio.com/items?itemName=fabiospampinato.vscode-terminals)
