@@ -38,18 +38,19 @@
 
 ## 🌋 Microsoft
 
-- [ ] [ms-vsliveshare.vsliveshare](https://marketplace.visualstudio.com/items?itemName=ms-vsliveshare.vsliveshare)
-- [ ] [ms-vsliveshare.vsliveshare-audio](https://marketplace.visualstudio.com/items?itemName=ms-vsliveshare.vsliveshare-audio)
-- [ ] [ms-vsliveshare.vsliveshare-pack](https://marketplace.visualstudio.com/items?itemName=ms-vsliveshare.vsliveshare-pack)
-- [ ] [Azure Extensions](https://marketplace.visualstudio.com/search?target=VSCode&category=Azure&sortBy=Downloads)
-- [ ] [ms-azuretools.vscode-azureappservice](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azureappservice)
-- [ ] [ms-azuretools.vscode-azurefunctions](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurefunctions)
-- [ ] [ms-azuretools.vscode-azurestorage](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurestorage)
-- [ ] [ms-azuretools.vscode-cosmosdb](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-cosmosdb)
-- [ ] [ms-vscode.azure-account](https://marketplace.visualstudio.com/items?itemName=ms-vscode.azure-account)
-- [ ] [ms-vscode.azurecli](https://marketplace.visualstudio.com/items?itemName=ms-vscode.azurecli)
-- [ ] [ms-vscode.vscode-node-azure-pack](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-node-azure-pack)
-- [ ] [msazurermtools.azurerm-vscode-tools](https://marketplace.visualstudio.com/items?itemName=msazurermtools.azurerm-vscode-tools)
+- [x] [ms-vsliveshare.vsliveshare-pack](https://marketplace.visualstudio.com/items?itemName=ms-vsliveshare.vsliveshare-pack)
+- [x] [ms-vsliveshare.vsliveshare](https://marketplace.visualstudio.com/items?itemName=ms-vsliveshare.vsliveshare)
+- [x] [ms-vsliveshare.vsliveshare-audio](https://marketplace.visualstudio.com/items?itemName=ms-vsliveshare.vsliveshare-audio)
+- [x] [Slack Chat](https://marketplace.visualstudio.com/items?itemName=karigari.chat)
+- [x] [Azure Extensions](https://marketplace.visualstudio.com/search?target=VSCode&category=Azure&sortBy=Downloads)
+- [x] [ms-azuretools.vscode-azureappservice](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azureappservice)
+- [x] [ms-azuretools.vscode-azurefunctions](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurefunctions)
+- [x] [ms-azuretools.vscode-azurestorage](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurestorage)
+- [x] [ms-azuretools.vscode-cosmosdb](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-cosmosdb)
+- [x] [ms-vscode.azure-account](https://marketplace.visualstudio.com/items?itemName=ms-vscode.azure-account)
+- [x] [ms-vscode.azurecli](https://marketplace.visualstudio.com/items?itemName=ms-vscode.azurecli)
+- [x] [ms-vscode.vscode-node-azure-pack](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-node-azure-pack)
+- [x] [msazurermtools.azurerm-vscode-tools](https://marketplace.visualstudio.com/items?itemName=msazurermtools.azurerm-vscode-tools)
 
 
 ## 🚦 Order/Case/Manipulate
@@ -68,6 +69,6 @@
 - [ ] [better-comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
 - [ ] [wayou.vscode-todo-highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)
 - [ ] [project-manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)
-- [ ] [formulahendry.code-runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
+- [x] [formulahendry.code-runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
 - [ ] [fabiospampinato.vscode-terminals](https://marketplace.visualstudio.com/items?itemName=fabiospampinato.vscode-terminals)
 - [ ] [Shan.code-settings-sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
