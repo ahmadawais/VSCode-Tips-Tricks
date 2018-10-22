@@ -55,20 +55,20 @@
 
 ## 🚦 Order/Case/Manipulate
 
-- [ ] [Asuka.insertnumbers](https://marketplace.visualstudio.com/items?itemName=Asuka.insertnumbers)
-- [ ] [Tyriar.sort-lines](https://marketplace.visualstudio.com/items?itemName=Tyriar.sort-lines)
-- [ ] [wmaurer.change-case](https://marketplace.visualstudio.com/items?itemName=wmaurer.change-case)
-- [ ] [nmsmith89.incrementor](https://marketplace.visualstudio.com/items?itemName=nmsmith89.incrementor)
-- [ ] [wwm.better-align](https://marketplace.visualstudio.com/items?itemName=wwm.better-align)
-- [ ] [silesky.toggle-boolean](https://marketplace.visualstudio.com/items?itemName=silesky.toggle-boolean)
-- [ ] [plibither8.remove-comments](https://marketplace.visualstudio.com/items?itemName=plibither8.remove-comments)
-- [ ] [deerawan.vscode-faker](https://marketplace.visualstudio.com/items?itemName=deerawan.vscode-faker)
+- [x] [Asuka.insertnumbers](https://marketplace.visualstudio.com/items?itemName=Asuka.insertnumbers)
+- [x] [Tyriar.sort-lines](https://marketplace.visualstudio.com/items?itemName=Tyriar.sort-lines)
+- [x] [wmaurer.change-case](https://marketplace.visualstudio.com/items?itemName=wmaurer.change-case)
+- [x] [nmsmith89.incrementor](https://marketplace.visualstudio.com/items?itemName=nmsmith89.incrementor)
+- [x] [wwm.better-align](https://marketplace.visualstudio.com/items?itemName=wwm.better-align)
+- [x] [silesky.toggle-boolean](https://marketplace.visualstudio.com/items?itemName=silesky.toggle-boolean)
+- [x] [plibither8.remove-comments](https://marketplace.visualstudio.com/items?itemName=plibither8.remove-comments)
+- [x] [deerawan.vscode-faker](https://marketplace.visualstudio.com/items?itemName=deerawan.vscode-faker)
 
 ## 🙌 Special Mentions
 
 - [ ] [better-comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
 - [ ] [wayou.vscode-todo-highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)
-- [ ] [project-manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)
 - [x] [formulahendry.code-runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
+- [ ] [project-manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)
 - [ ] [fabiospampinato.vscode-terminals](https://marketplace.visualstudio.com/items?itemName=fabiospampinato.vscode-terminals)
 - [ ] [Shan.code-settings-sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
