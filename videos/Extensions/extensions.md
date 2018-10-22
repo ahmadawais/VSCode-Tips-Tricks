@@ -66,9 +66,9 @@
 
 ## 🙌 Special Mentions
 
-- [ ] [better-comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
-- [ ] [wayou.vscode-todo-highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)
-- [ ] [formulahendry.code-runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
+- [x] [better-comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
+- [x] [wayou.vscode-todo-highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)
+- [x] [formulahendry.code-runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
 - [ ] [project-manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)
 - [ ] [fabiospampinato.vscode-terminals](https://marketplace.visualstudio.com/items?itemName=fabiospampinato.vscode-terminals)
 - [ ] [Shan.code-settings-sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
