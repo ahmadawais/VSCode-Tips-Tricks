@@ -52,5 +52,10 @@
 - **MODULE** #8: [PHP/WordPress Workflows](https://vscode.pro/#module8)
 - **MODULE** #9: [50+ Pro Extensions Setup](https://vscode.pro/#module9)
 
-
->For anything else, tweet at <a href="https://twitter.com/MrAhmadAwais/" target="_blank" rel="noopener noreferrer" class="A__Wrap-YZyot alypB">@MrAhmadAwais →</a>
+<br />
+<br />
+<br />
+<br />
+<p align="center">
+<strong>For anything else, tweet at <a href="https://twitter.com/MrAhmadAwais/" target="_blank" rel="noopener noreferrer" class="A__Wrap-YZyot alypB">@MrAhmadAwais →</a></strong>
+</p>
