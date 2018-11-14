@@ -28,7 +28,7 @@
 
 <span class="Who__Sop-itixLH eyrACm">It's a known fact that Ahmad loves purple. Purple can be genius. So, he built a VSCode theme which is used by thousands of developers 150,000+ installs and 50+ developer swear by its awesomeness.
 
-> Install this theme called — 🦄 <a href="https://marketplace.visualstudio.com/items?itemName=ahmadawais.shades-of-purple" target="_blank" rel="noopener noreferrer" class="A__Wrap-YZyot alypB">Shades of Purple →</a></span></p></div></div>
+> Install this theme called 🦄  <a href="https://marketplace.visualstudio.com/items?itemName=ahmadawais.shades-of-purple" target="_blank" rel="noopener noreferrer" class="A__Wrap-YZyot alypB">Shades of Purple →</a></span></p></div></div>
 
 ## Get Started Now!
 
