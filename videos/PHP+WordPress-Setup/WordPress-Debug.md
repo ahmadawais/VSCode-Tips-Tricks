@@ -138,6 +138,6 @@ Peace! ✌️
 
 ---
 
-### 🔥 Setup Xdebug in Plain Docker for WordPress
+#### ⚡︎ Setup Xdebug in Plain Docker for WordPress
 
 Chris Bibby one of the VSCode.pro customers wrote a guide on [Setting up Xdebug with VSCode for WordPress in Docker](https://medium.com/@cmbibby/how-to-setup-xdebug-in-vscode-for-wordpress-in-docker-5d5276421afc?sk=b100e535d2e06ef001e6d885d1ab4d43) for folks who don't use FlyWheel's Local.
