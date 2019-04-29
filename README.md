@@ -1,13 +1,13 @@
 <p align="center">
   <br>
-  <a href="https://VSCode.pro/">
+  <a href="https://VSCode.pro/?utm_source=VSCode-Tips-Tricks">
     <img src=".github/VSCodepro.jpg" />
   </a>
 </p>
 
 <h1 align="center">VSCode Tips Tricks</h1>
 
-<p align="center">VSCode Tips Tricks is the Examples and Workflows repository of Visual Studio Code Power User Course <br/>→ <a href="https://VSCode.pro">https://VSCode.pro</a>
+<p align="center">VSCode Tips Tricks is the Examples and Workflows repository of Visual Studio Code Power User Course <br/>→ <a href="https://VSCode.pro?utm_source=VSCode-Tips-Tricks">https://VSCode.pro</a>
 
 <br />
 <br />
@@ -22,11 +22,11 @@
 
 <h2 align="center"><a href="https://twitter.com/MrAhmadAwais/" target="_blank" rel="noopener noreferrer" class="A__Wrap-YZyot alypB">Ahmad Awais</a></h2>
 
-<div class="Container__Wrap-eLLtEK eNcImr"><div class="Container__Inner-gbdqOw fEWtAT"><p class="Desc-khonk bUVpyB"><img src="https://abs.twimg.com/emoji/v2/72x72/1f3a9.png" alt="🎩" title="Magician" width="14" height="14" class="EImg__Img-grQVJb inCqhX"> Full-time #OpenSourcerer <img src="https://abs.twimg.com/emoji/v2/72x72/1f951.png" alt="🥑" title="Developer Avocado" width="14" height="14" class="EImg__Img-grQVJb inCqhX"> JavaScript Dev Advocate <img src="https://abs.twimg.com/emoji/v2/72x72/270c.png" alt="✌️" title="Boo-yeah!" width="14" height="14" class="EImg__Img-grQVJb inCqhX"> Builds <a href="https://github.com/AhmadAwais" target="_blank" rel="noopener noreferrer" class="A__Wrap-YZyot alypB">professional Open Source Software</a> used by over 218,900 Developers (inc. engineers at Google, Microsoft, Intel, HP…) <img src="https://abs.twimg.com/emoji/v2/72x72/1f525.png" alt="🔥" title="Fire" width="14" height="14" class="EImg__Img-grQVJb inCqhX"> Ridiculously hard-working Full Stack Web Dev ⓦ Regular WordPress Core Developer <img src="https://abs.twimg.com/emoji/v2/72x72/1f4e3.png" alt="📣" title="Speaker" width="14" height="14" class="EImg__Img-grQVJb inCqhX"> TEDx Speaker <img src="https://abs.twimg.com/emoji/v2/72x72/1f64c.png" alt="🙌" title="HELLO" width="14" height="14" class="EImg__Img-grQVJb inCqhX"> Cloud/DevOps Community Evangelist <img src="https://abs.twimg.com/emoji/v2/72x72/270d.png" alt="✍️" title="Writing" width="14" height="14" class="EImg__Img-grQVJb inCqhX"> Member of SmashingMagazine Experts Panel, <a href="https://AhmadAwais.com/" target="_blank" rel="noopener noreferrer" class="A__Wrap-YZyot alypB">Featured/published author</a> at CSS-Tricks, Tuts+, Scotch.io, TorqueMag, SitePoint…<img src="https://abs.twimg.com/emoji/v2/72x72/1f602.png" alt="😂" title="Face with tears of joy" width="14" height="14" class="EImg__Img-grQVJb inCqhX"> Funnier than your mom. Seriously funny! You should follow him on twitter <a href="https://twitter.com/MrAhmadAwais/" target="_blank" rel="noopener noreferrer" class="A__Wrap-YZyot alypB">@MrAhmadAwais →</a>
+<div class="Container__Wrap-eLLtEK eNcImr"><div class="Container__Inner-gbdqOw fEWtAT"><p class="Desc-khonk bUVpyB"><img src="https://abs.twimg.com/emoji/v2/72x72/1f3a9.png" alt="🎩" title="Magician" width="14" height="14" class="EImg__Img-grQVJb inCqhX"> Google Deverlopers Expert & Full-time #OpenSourcerer <img src="https://abs.twimg.com/emoji/v2/72x72/1f951.png" alt="🥑" title="Developer Avocado" width="14" height="14" class="EImg__Img-grQVJb inCqhX"> JavaScript Dev Advocate Node.js Community Committee Member <img src="https://abs.twimg.com/emoji/v2/72x72/270c.png" alt="✌️" title="Boo-yeah!" width="14" height="14" class="EImg__Img-grQVJb inCqhX"> Builds <a href="https://github.com/AhmadAwais" target="_blank" rel="noopener noreferrer" class="A__Wrap-YZyot alypB">professional Open Source Software</a> used by over 902,556 Developers (inc. engineers at Google, Microsoft, Intel, HP…) <img src="https://abs.twimg.com/emoji/v2/72x72/1f525.png" alt="🔥" title="Fire" width="14" height="14" class="EImg__Img-grQVJb inCqhX"> Ridiculously hard-working Full Stack Web Dev ⓦ Regular WordPress Core Developer <img src="https://abs.twimg.com/emoji/v2/72x72/1f4e3.png" alt="📣" title="Speaker" width="14" height="14" class="EImg__Img-grQVJb inCqhX"> TEDx Speaker <img src="https://abs.twimg.com/emoji/v2/72x72/1f64c.png" alt="🙌" title="HELLO" width="14" height="14" class="EImg__Img-grQVJb inCqhX"> Cloud/DevOps Community Evangelist <img src="https://abs.twimg.com/emoji/v2/72x72/270d.png" alt="✍️" title="Writing" width="14" height="14" class="EImg__Img-grQVJb inCqhX"> Member of SmashingMagazine Experts Panel, <a href="https://AhmadAwais.com/" target="_blank" rel="noopener noreferrer" class="A__Wrap-YZyot alypB">Featured/published author</a> at CSS-Tricks, Tuts+, Scotch.io, TorqueMag, SitePoint…<img src="https://abs.twimg.com/emoji/v2/72x72/1f602.png" alt="😂" title="Face with tears of joy" width="14" height="14" class="EImg__Img-grQVJb inCqhX"> Funnier than your mom. Seriously funny! You should follow him on twitter <a href="https://twitter.com/MrAhmadAwais/" target="_blank" rel="noopener noreferrer" class="A__Wrap-YZyot alypB">@MrAhmadAwais →</a>
 
 
 
-<span class="Who__Sop-itixLH eyrACm">It's a known fact that Ahmad loves purple. Purple can be genius. So, he built a VSCode theme which is used by thousands of developers 553,579+ installs, 1,017,477+ downloads, and 70+ developer five-star awesomene ratings.
+<span class="Who__Sop-itixLH eyrACm">It's a known fact that Ahmad loves purple. Purple can be genius. So, he built a VSCode theme which is used by thousands of developers 583,203+ installs, 1,159,310+ downloads, and 70+ developer five-star awesomene ratings.
 
 > Install this theme called 🦄  <a href="https://marketplace.visualstudio.com/items?itemName=ahmadawais.shades-of-purple" target="_blank" rel="noopener noreferrer" class="A__Wrap-YZyot alypB">Shades of Purple →</a></span></p></div></div>
 
@@ -36,21 +36,21 @@
 
 ## More Details
 
-- **COURSE**: [VSCode.pro](https://VSCode.pro) →
-- **SIGNUP**: [Starter & Master Packages](https://VSCode.pro/#signup) →
-- **FAQ**: [Frequently Asked Questions?!](https://VSCode.pro/#FAQ) →
+- **COURSE**: [VSCode.pro](https://VSCode.pro?utm_source=VSCode-Tips-Tricks) →
+- **SIGNUP**: [Starter & Master Packages](https://VSCode.pro/?utm_source=VSCode-Tips-Tricks#signup) →
+- **FAQ**: [Frequently Asked Questions?!](https://VSCode.pro/?utm_source=VSCode-Tips-Tricks#FAQ) →
 
 ### Modules
 
-- **MODULE** #1: [Basics Yoga](https://vscode.pro/#module1)
-- **MODULE** #2: [Settings Ninja](https://vscode.pro/#module2)
-- **MODULE** #3: [Power User Workflows](https://vscode.pro/#module3)
-- **MODULE** #4: [HTML/CSS The Web Dev](https://vscode.pro/#module4)
-- **MODULE** #5: [Git/GitHub & OSS Tips](https://vscode.pro/#module5)
-- **MODULE** #6: [Pro Markdown Workflow](https://vscode.pro/#module6)
-- **MODULE** #7: [Everything About Javascript](https://vscode.pro/#module7)
-- **MODULE** #8: [PHP/WordPress Workflows](https://vscode.pro/#module8)
-- **MODULE** #9: [50+ Pro Extensions Setup](https://vscode.pro/#module9)
+- **MODULE** #1: [Basics Yoga](https://vscode.pro/?utm_source=VSCode-Tips-Tricks#module1)
+- **MODULE** #2: [Settings Ninja](https://vscode.pro/?utm_source=VSCode-Tips-Tricks#module2)
+- **MODULE** #3: [Power User Workflows](https://vscode.pro/?utm_source=VSCode-Tips-Tricks#module3)
+- **MODULE** #4: [HTML/CSS The Web Dev](https://vscode.pro/?utm_source=VSCode-Tips-Tricks#module4)
+- **MODULE** #5: [Git/GitHub & OSS Tips](https://vscode.pro/?utm_source=VSCode-Tips-Tricks#module5)
+- **MODULE** #6: [Pro Markdown Workflow](https://vscode.pro/?utm_source=VSCode-Tips-Tricks#module6)
+- **MODULE** #7: [Everything About Javascript](https://vscode.pro/?utm_source=VSCode-Tips-Tricks#module7)
+- **MODULE** #8: [PHP/WordPress Workflows](https://vscode.pro/?utm_source=VSCode-Tips-Tricks#module8)
+- **MODULE** #9: [50+ Pro Extensions Setup](https://vscode.pro/?utm_source=VSCode-Tips-Tricks#module9)
 
 <br />
 <br />
@@ -68,8 +68,8 @@
 </p>
 
 <div align="center">
-  <a href="https://VSCode.pro/?utm_source=sop" target="_blank">
+  <a href="https://VSCode.pro/?utm_source=VSCode-Tips-Tricks" target="_blank">
   <img src="https://raw.githubusercontent.com/ahmadawais/shades-of-purple-vscode/master/images/vscodeproPlay.jpg" /><br>VSCode</a>
 
-  _<small><a href="https://VSCode.pro/?utm_source=sop" target="_blank">VSCode Power User Course →</a></small>_
+  _<small><a href="https://VSCode.pro/?utm_source=VSCode-Tips-Tricks" target="_blank">VSCode Power User Course →</a></small>_
 </div>
