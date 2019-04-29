@@ -54,8 +54,22 @@
 
 <br />
 <br />
+
+>#### ⚠️ Changes
+>
+>With time there are updates and things change. I keep a label called [`CHANGES`](https://github.com/ahmadawais/VSCode-Tips-Tricks/issues?utf8=%E2%9C%93&q=is%3Aissue+sort%3Aupdated-desc+label%3ACHANGES+) where you can track all the changeset. You can help as well.
+
+<br />
+<br />
 <br />
 <br />
 <p align="center">
 <strong>For anything else, tweet at <a href="https://twitter.com/MrAhmadAwais/" target="_blank" rel="noopener noreferrer" class="A__Wrap-YZyot alypB">@MrAhmadAwais →</a></strong>
 </p>
+
+<div align="center">
+  <a href="https://VSCode.pro/?utm_source=sop" target="_blank">
+  <img src="https://raw.githubusercontent.com/ahmadawais/shades-of-purple-vscode/master/images/vscodeproPlay.jpg" /><br>VSCode</a>
+
+  _<small><a href="https://VSCode.pro/?utm_source=sop" target="_blank">VSCode Power User Course →</a></small>_
+</div>
