@@ -1,12 +1,10 @@
 {
-    // EXT: Highlight Matching Tag ——————————————————
-    "highlight-matching-tag.style": {
-        "backgroundColor": "rgba(165, 153, 233, 0.3)"
-    },
-    "highlight-matching-tag.leftStyle": {
-        "borderWidth": "0"
-    },
-    "highlight-matching-tag.rightStyle": {
-        "borderWidth": "0"
-    },
+	// EXT: Highlight Matching Tag (UPDATED for v0.9.1) ——————————————————
+	"highlight-matching-tag.styles": {
+		"opening": {
+			"full": {
+				"highlight": "rgba(165, 153, 233, 0.3)"
+			}
+		}
+	}
 }
