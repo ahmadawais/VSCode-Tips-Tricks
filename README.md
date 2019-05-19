@@ -7,14 +7,12 @@
 
 <h1 align="center">VSCode Tips Tricks</h1>
 
-<p align="center">VSCode Tips Tricks is the Examples and Workflows repository of Visual Studio Code Power User Course <br/>→ <a href="https://VSCode.pro?utm_source=VSCode-Tips-Tricks">https://VSCode.pro</a>
+<p align="center">VSCode-Tips-Tricks is the repository of Examples and Workflows for this Visual Studio Code Power User Course <br/>→ <a href="https://VSCode.pro?utm_source=VSCode-Tips-Tricks">https://VSCode.pro</a>
 
-<br />
-<br />
-<br />
-<br />
+  <br />
+  <br />
 
-<a href="https://twitter.com/MrAhmadAwais/">
+  <a href="https://twitter.com/MrAhmadAwais/">
     <img src=".github/ahmadawais.jpg" />
   </a>
 
@@ -22,8 +20,7 @@
 
 <h2 align="center"><a href="https://twitter.com/MrAhmadAwais/" target="_blank" rel="noopener noreferrer" class="A__Wrap-YZyot alypB">Ahmad Awais</a></h2>
 
-<div class="Container__Wrap-eLLtEK eNcImr"><div class="Container__Inner-gbdqOw fEWtAT"><p class="Desc-khonk bUVpyB"><img src="https://abs.twimg.com/emoji/v2/72x72/1f3a9.png" alt="🎩" title="Magician" width="14" height="14" class="EImg__Img-grQVJb inCqhX"> Google Deverlopers Expert & Full-time #OpenSourcerer <img src="https://abs.twimg.com/emoji/v2/72x72/1f951.png" alt="🥑" title="Developer Avocado" width="14" height="14" class="EImg__Img-grQVJb inCqhX"> JavaScript Dev Advocate Node.js Community Committee Member <img src="https://abs.twimg.com/emoji/v2/72x72/270c.png" alt="✌️" title="Boo-yeah!" width="14" height="14" class="EImg__Img-grQVJb inCqhX"> Builds <a href="https://github.com/AhmadAwais" target="_blank" rel="noopener noreferrer" class="A__Wrap-YZyot alypB">professional Open Source Software</a> used by over 902,556 Developers (inc. engineers at Google, Microsoft, Intel, HP…) <img src="https://abs.twimg.com/emoji/v2/72x72/1f525.png" alt="🔥" title="Fire" width="14" height="14" class="EImg__Img-grQVJb inCqhX"> Ridiculously hard-working Full Stack Web Dev ⓦ Regular WordPress Core Developer <img src="https://abs.twimg.com/emoji/v2/72x72/1f4e3.png" alt="📣" title="Speaker" width="14" height="14" class="EImg__Img-grQVJb inCqhX"> TEDx Speaker <img src="https://abs.twimg.com/emoji/v2/72x72/1f64c.png" alt="🙌" title="HELLO" width="14" height="14" class="EImg__Img-grQVJb inCqhX"> Cloud/DevOps Community Evangelist <img src="https://abs.twimg.com/emoji/v2/72x72/270d.png" alt="✍️" title="Writing" width="14" height="14" class="EImg__Img-grQVJb inCqhX"> Member of SmashingMagazine Experts Panel, <a href="https://AhmadAwais.com/" target="_blank" rel="noopener noreferrer" class="A__Wrap-YZyot alypB">Featured/published author</a> at CSS-Tricks, Tuts+, Scotch.io, TorqueMag, SitePoint…<img src="https://abs.twimg.com/emoji/v2/72x72/1f602.png" alt="😂" title="Face with tears of joy" width="14" height="14" class="EImg__Img-grQVJb inCqhX"> Funnier than your mom. Seriously funny! You should follow him on twitter <a href="https://twitter.com/MrAhmadAwais/" target="_blank" rel="noopener noreferrer" class="A__Wrap-YZyot alypB">@MrAhmadAwais →</a>
-
+<div class="Container__Wrap-eLLtEK eNcImr"><div class="Container__Inner-gbdqOw fEWtAT"><p class="Desc-khonk bUVpyB"><img src="https://abs.twimg.com/emoji/v2/72x72/1f3a9.png" alt="🎩" title="Magician" width="14" height="14" class="EImg__Img-grQVJb inCqhX"> Google Developer, Software Development Expert, & Full-time #OpenSource project contributer <img src="https://abs.twimg.com/emoji/v2/72x72/1f951.png" alt="🥑" title="Developer Avocado" width="14" height="14" class="EImg__Img-grQVJb inCqhX"> JavaScript Dev Advocate, Node.js Community Committee Member <img src="https://abs.twimg.com/emoji/v2/72x72/270c.png" alt="✌️" title="Boo-yeah!" width="14" height="14" class="EImg__Img-grQVJb inCqhX"> Builds <a href="https://github.com/AhmadAwais" target="_blank" rel="noopener noreferrer" class="A__Wrap-YZyot alypB">professional Open Source Software</a> used by over 902,556 Developers (inc. engineers at Google, Microsoft, Intel, HP…) <img src="https://abs.twimg.com/emoji/v2/72x72/1f525.png" alt="🔥" title="Fire" width="14" height="14" class="EImg__Img-grQVJb inCqhX"> Ridiculously hard-working Full Stack Web Dev ⓦ Regular WordPress Core Developer <img src="https://abs.twimg.com/emoji/v2/72x72/1f4e3.png" alt="📣" title="Speaker" width="14" height="14" class="EImg__Img-grQVJb inCqhX"> TEDx Speaker <img src="https://abs.twimg.com/emoji/v2/72x72/1f64c.png" alt="🙌" title="HELLO" width="14" height="14" class="EImg__Img-grQVJb inCqhX"> Cloud/DevOps Community Evangelist <img src="https://abs.twimg.com/emoji/v2/72x72/270d.png" alt="✍️" title="Writing" width="14" height="14" class="EImg__Img-grQVJb inCqhX"> Member of SmashingMagazine Experts Panel, <a href="https://AhmadAwais.com/" target="_blank" rel="noopener noreferrer" class="A__Wrap-YZyot alypB">Featured/published author</a> at CSS-Tricks, Tuts+, Scotch.io, TorqueMag, SitePoint…<img src="https://abs.twimg.com/emoji/v2/72x72/1f602.png" alt="😂" title="Face with tears of joy" width="14" height="14" class="EImg__Img-grQVJb inCqhX"> Funnier than your mom. Seriously funny! You should follow on Twitter <a href="https://twitter.com/MrAhmadAwais/" target="_blank" rel="noopener noreferrer" class="A__Wrap-YZyot alypB">@MrAhmadAwais →</a>
 
 
 <span class="Who__Sop-itixLH eyrACm">It's a known fact that Ahmad loves purple. Purple can be genius. So, he built a VSCode theme which is used by thousands of developers 583,203+ installs, 1,159,310+ downloads, and 70+ developer five-star awesomene ratings.
@@ -60,9 +57,7 @@
 >With time there are updates and things change. I keep a label called [`CHANGES`](https://github.com/ahmadawais/VSCode-Tips-Tricks/issues?utf8=%E2%9C%93&q=is%3Aissue+sort%3Aupdated-desc+label%3ACHANGES+) where you can track all the changeset. You can help as well.
 
 <br />
-<br />
-<br />
-<br />
+
 <p align="center">
 <strong>For anything else, tweet at <a href="https://twitter.com/MrAhmadAwais/" target="_blank" rel="noopener noreferrer" class="A__Wrap-YZyot alypB">@MrAhmadAwais →</a></strong>
 </p>
