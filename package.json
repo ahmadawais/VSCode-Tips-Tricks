@@ -10,6 +10,6 @@
 	"author": "AhmadAwais",
 	"license": "MIT",
 	"devDependencies": {
-		"ava": "^1.0.0-beta.3"
+		"ava": "^2.1.0"
 	}
 }
