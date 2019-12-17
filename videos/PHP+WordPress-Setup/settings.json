@@ -1,10 +1,12 @@
 {
 	// PHP/WORDPRESS  —————————————————————————————
 	"php.suggest.basic": false,
-	"intelephense.formatProvider.enable": false,
+	"intelephense.format.enable": false,
 	"[php]": {
 		"editor.formatOnSave": false,
-		"editor.formatOnPaste": false
+		"editor.formatOnPaste": false,
+		// PHP Intelephense (Tested in v1.3.5) adds the following line automatically
+		"editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
 	},
 	// PHPCS.
 	"phpcs.executablePath": "/usr/local/bin/phpcs",
